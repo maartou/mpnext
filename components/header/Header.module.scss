@@ -1,12 +1,18 @@
+$transition : all 400ms ease;
+
+$negro: #000000;
+$primary: #2b2bff;
+$blanco: #ffffff;
+
 .header {
-  background: black;
+  background: $negro;
   display: flex;
   padding: 1rem;
   justify-content: space-between;
+}
 
-  .logo {
-    width: 6rem;
-  }
+.logo {
+  width: 5rem;
 }
 
 .wide_nav {
@@ -15,14 +21,39 @@
   gap: 2rem;
 
   a {
-    font-size: 1.2rem;
-    color: white;
+    font-size: 1.1rem;
+    color: $blanco;
     text-decoration: none;
+    transition: $transition;
+
+    &:hover {
+      color: $primary;
+    }
   }
+
 }
+
+.responsive_nav {
+  display: none;
+}
+
+.burger {
+  color: $blanco;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 768px) {
   .wide_nav {
     display: none;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  .responsive_nav {
+    display: block;
   }
 }

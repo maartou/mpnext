@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/header/Header";
+import Hero from "../components/hero/Hero";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <title> Martin Padron. </title>
       </Head>
       <Header />
-      <h1>Mp nexto</h1>
+      <Hero />
     </>
   );
 }
