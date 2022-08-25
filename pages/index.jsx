@@ -8,8 +8,10 @@ export default function Home() {
       <Head>
         <title> Martin Padron. </title>
       </Head>
-      <Header />
-      <Hero />
+      <main>
+        <Header />
+        <Hero />
+      </main>
     </>
   );
 }

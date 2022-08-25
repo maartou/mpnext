@@ -7,12 +7,14 @@ $blanco: #ffffff;
 .header {
   background: $negro;
   display: flex;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  width: 5rem;
+  width: 3.5rem;
+  display: flex;
 }
 
 .wide_nav {
@@ -22,13 +24,6 @@ $blanco: #ffffff;
 
   a {
     font-size: 1.1rem;
-    color: $blanco;
-    text-decoration: none;
-    transition: $transition;
-
-    &:hover {
-      color: $primary;
-    }
   }
 
 }
@@ -45,12 +40,9 @@ $blanco: #ffffff;
 
 
 @media screen and (max-width: 768px) {
+
   .wide_nav {
     display: none;
-  }
-
-  .logo {
-    width: 4rem;
   }
 
   .responsive_nav {

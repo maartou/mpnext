@@ -1,0 +1,241 @@
+$negro: #000000;
+$blanco: #ffffff;
+$primary: #2b2bff;
+$transition: all 400ms ease;
+
+@mixin btn() {
+  width: max-content;
+  display: inline-block;
+  color: $blanco;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: $transition;
+  background: $primary;
+
+  &:hover {
+    background: $negro;
+    color: $blanco;
+  }
+}
+
+.heroSection {
+  width: 100%;
+  height: 100vh;
+  background: $negro;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.banner {
+  width: 80%;
+  height: 85vh;
+  background: white;
+  color: $negro;
+  position: relative;
+}
+
+.titles {
+  display: flex;
+  flex-flow: column;
+  width: max-content;
+  margin: 2.5rem;
+
+  h1 {
+    color: $primary;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8.18em;
+    line-height: 9.5rem;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  a {
+    @include btn();
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+}
+
+.img_container {
+  width: 28rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  filter: drop-shadow(-27px 0px 15px rgba(0, 0, 0, 0.25));
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translate(-3%, -50%);
+  gap: 1rem;
+
+  .icon {
+    font-size: 3rem;
+  }
+}
+
+.conoceme {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  transform: rotate(-90deg);
+}
+
+.intro {
+  position: absolute;
+  background: $primary;
+  color: $blanco;
+  left: 5%;
+  bottom: 0;
+  width: 40rem;
+  padding: 3rem;
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  a {
+    text-decoration: underline;
+    &:hover {
+      color: $blanco;
+    }
+  }
+}
+
+// Laptops
+@media screen and (max-width: 1280px) {
+  .heroSection {
+    align-items: center;
+  }
+
+  .banner {
+    height: 70vh;
+  }
+
+  .img_container {
+    width: 23rem;
+  }
+
+  .titles {
+    font-size: 10px;
+
+    h1 {
+      line-height: 6rem;
+    }
+  }
+
+  .redes {
+    .icon {
+      font-size: 2.5rem;
+    }
+  }
+
+  .conoceme {
+    left: -5%;
+  }
+
+  .intro {
+    left: 5%;
+    bottom: 15%;
+    width: 25rem;
+    padding: 1.5rem;
+  }
+}
+
+// Tablets
+@media screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .banner {
+    width: 100%;
+    height: 58vh;
+  }
+
+  .img_container {
+    width: 19rem;
+  }
+
+  .titles {
+    margin: 1.5rem 1rem;
+    font-size: 9px;
+
+    h1 {
+      line-height: 5rem;
+    }
+  }
+
+  .redes {
+    position: initial;
+    flex-direction: row;
+
+    .icon {
+      font-size: 2.5rem;
+    }
+  }
+
+  .conoceme {
+    display: none;
+  }
+
+  .intro {
+    position: initial;
+    width: 90%;
+    padding: 2rem;
+  
+    p {
+      font-size: 1.1rem;
+    }
+  
+  }
+}
+
+// Phones
+@media screen and (max-width: 500px) {
+  .heroSection {
+    height: auto;
+  }
+
+  .banner {
+    margin-top: 6rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .img_container {
+    width: 11rem;
+  }
+
+  .titles {
+    font-size: 16px;
+
+    h1 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
