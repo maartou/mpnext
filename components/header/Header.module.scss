@@ -1,0 +1,28 @@
+.header {
+  background: black;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+
+  .logo {
+    width: 6rem;
+  }
+}
+
+.wide_nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wide_nav {
+    display: none;
+  }
+}
