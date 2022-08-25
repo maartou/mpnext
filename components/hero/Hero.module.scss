@@ -119,10 +119,15 @@ $transition: all 400ms ease;
   }
 }
 
+.separator {
+    display: none;
+}
+
 // Laptops
 @media screen and (max-width: 1280px) {
   .heroSection {
     align-items: center;
+    margin-bottom: 0;
   }
 
   .banner {
@@ -207,6 +212,13 @@ $transition: all 400ms ease;
     }
   
   }
+
+  .redes {  
+    .icon {
+      font-size: 3rem;
+    }
+  }
+
 }
 
 // Phones
@@ -238,4 +250,15 @@ $transition: all 400ms ease;
       font-size: 1rem;
     }
   }
+
+  .separator {
+    position: absolute;
+    left: 50%;
+    top: 68%;
+    transform: translateX(-50%);
+    display: block;
+    border: 1px solid $blanco;
+    width: 300px;
+  }
+
 }

@@ -1,0 +1,141 @@
+$negro: #000000;
+$primary: #2b2bff;
+$blanco: #ffffff;
+
+$transition: all 400ms ease;
+
+@mixin h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.Servi_section {
+  h2 {
+    @include h2();
+    text-align: center;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 3rem auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+  article {
+    border: 1px solid $blanco;
+    padding: 2rem;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h3 {
+      font-weight: 400;
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #b5b5b5;
+    }
+
+    a {
+      color: $primary;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      margin-top: 3rem;
+      margin-left: auto;
+    }
+
+    .icon {
+      font-size: 4rem;
+      color: $primary;
+    }
+
+    transition: $transition;
+
+    &:hover {
+      background: $blanco;
+      border-color: transparent;
+      color: $negro;
+
+      p {
+        color: #2b2b2b;
+      }
+    }
+  }
+}
+
+.mov {
+  display: none;
+}
+
+// Laptops
+@media screen and (max-width: 1280px) {
+  .container {
+    gap: 1rem;
+
+    article {
+      .icon {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+// Tablets
+@media screen and (max-width: 768px) {
+  .Servi_section {
+    margin-top: 4rem;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+  }
+
+  .container {
+    display: none;
+  }
+
+  .mov {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid $blanco;
+
+    article {
+      padding: 1.5rem;
+      cursor: default;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      .icon {
+        font-size: 4rem;
+        color: $primary;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 2rem;
+      }
+
+      p {
+        color: #b5b5b5;
+        font-weight: 300;
+        font-size: 1.1rem;
+      }
+
+      a {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        color: $primary;
+      }
+    }
+
+  }
+}

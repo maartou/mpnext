@@ -27,6 +27,8 @@ const Hero = () => {
         <Link href="/Sobre-mi"> Conóceme </Link>
       </div>
 
+      <hr className={style.separator}/>
+
       <div className={style.intro}>
         <p>Hola! Encantado de tenerte por aquí, espero que tu experiencia por acá sea de lo más agradable... Si quieres saber más de mi dale  <Link href="/Sobre-mi">click a este enlace</Link></p>
       </div>
