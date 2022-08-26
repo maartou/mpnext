@@ -5,7 +5,11 @@ $primary: #2b2bff;
 $blanco: #ffffff;
 
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
   background: $negro;
+  z-index: 10;
   display: flex;
   padding: 1rem 1.5rem;
   justify-content: space-between;
@@ -15,6 +19,7 @@ $blanco: #ffffff;
 .logo {
   width: 3.5rem;
   display: flex;
+  cursor: pointer;
 }
 
 .wide_nav {

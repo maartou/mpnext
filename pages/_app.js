@@ -1,3 +1,5 @@
+import "swiper/scss";
+import "swiper/scss/pagination";
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {

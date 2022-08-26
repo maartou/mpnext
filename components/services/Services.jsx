@@ -6,8 +6,8 @@ import { FaGoogle } from "react-icons/fa";
 import { TiSocialAtCircular } from "react-icons/ti";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css";
+// import "swiper/css/pagination";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Services = () => {
   return (
     <section className={style.Servi_section}>
-      <h2>Mis servicios</h2>
+      <h2 id="servicios">Mis servicios</h2>
 
       <div className={style.container}>
         <article>
@@ -86,9 +86,7 @@ const Services = () => {
               línea, obtén cotizaciones en tu sitio y destaca entre tus
               competidores con tu imponente sitio web.
             </p>
-            <div className={style.linkContainer}>
               <Link href="/Desarrollo-web"> Ver más </Link>
-            </div>
           </article>
         </SwiperSlide>
 

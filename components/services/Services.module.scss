@@ -93,7 +93,7 @@ $transition: all 400ms ease;
     margin-top: 4rem;
 
     h2 {
-        margin-bottom: 3rem;
+      margin-bottom: 3rem;
     }
   }
 
@@ -105,14 +105,15 @@ $transition: all 400ms ease;
     display: block;
     width: 90%;
     margin: 0 auto;
-    border: 1px solid $blanco;
 
     article {
       padding: 1.5rem;
+      border: 1px solid $blanco;
       cursor: default;
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      transition: $transition;
 
       .icon {
         font-size: 4rem;
@@ -131,11 +132,21 @@ $transition: all 400ms ease;
       }
 
       a {
+        width: max-content;
+        margin-left: auto;
         font-size: 1.1rem;
         text-transform: uppercase;
         color: $primary;
       }
-    }
 
+      &:hover {
+        background: $blanco;
+        color: $negro;
+
+        p {
+          color: $negro;
+        }
+      }
+    }
   }
 }

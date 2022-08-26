@@ -4,7 +4,7 @@ import Link from "next/link";
 import style from "./Header.module.scss";
 import { GoThreeBars } from "react-icons/go";
 
-const Header = () => {
+const Header = ({services}) => {
   function prueba() {
     alert("Funciona");
   }
@@ -12,13 +12,16 @@ const Header = () => {
   return (
     <header className={style.header}>
       <div className={style.logo}>
-        <Image src={logo} alt="Martin Padron logo" />
+        <Link href="/">
+          <Image src={logo} alt="Martin Padron logo" />
+        </Link>
       </div>
 
       <nav className={style.wide_nav}>
         <Link href="/"> Home </Link>
-        <Link href="/Portfolio"> Portfolio </Link>
         <Link href="/Sobre-mi"> Sobre mi </Link>
+        <Link href={services}> Servicios </Link>
+        <Link href="/Portfolio"> Portfolio </Link>
       </nav>
 
       <nav className={style.responsive_nav}>

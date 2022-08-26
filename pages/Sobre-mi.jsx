@@ -3,7 +3,7 @@ import Header from "../components/header/Header"
 const SobreMi = () => {
   return (
     <>
-    <Header/>
+    <Header services="/#servicios"/>
     <h2>Sobre mi</h2>
     </>
   )
