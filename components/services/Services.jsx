@@ -132,6 +132,9 @@ const Services = () => {
           </article>
         </SwiperSlide>
       </Swiper>
+
+      <p className={style.swipe}>Desliza &rarr;</p>
+
     </section>
   );
 };
