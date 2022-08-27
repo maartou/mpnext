@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import Services from "../components/services/Services";
 import Skills from "../components/skills/Skills";
+import PortfolioComp from "../components/portfolio/PortfolioComp";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Services/>
         <Skills />
+        <PortfolioComp />
       </main>
     </>
   );
