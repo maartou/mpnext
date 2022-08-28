@@ -1,0 +1,41 @@
+$negro: #000000;
+$primary: #2b2bff;
+$blanco: #ffffff;
+$transition: all 400ms ease;
+
+.footer {
+  background: $primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  gap: 1.5rem;
+
+  .logo {
+    width: 8rem;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+
+    a {
+      &:hover {
+        color: $negro;
+      }
+    }
+  }
+}
+
+// Tablets
+@media all and (max-width: 768px) {
+  .footer {
+    gap: 3rem;
+    .links {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}

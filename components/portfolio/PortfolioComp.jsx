@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioComp = () => {
   return (
     <section className={style.psection}>
-      <h2>Trabajos recientes</h2>
+      <h2 id="portfolio">Trabajos recientes</h2>
 
       <div className={style.container}>
         <article className={style.p_item}>
