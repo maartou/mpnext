@@ -1,12 +1,50 @@
+
+.hero {
+    background: white;
+    color: black;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20em;
+        line-height: 1em;
+    }
+}
+
+
 .portfolio_page{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 6rem 0;
 }
 
+
+@media screen and (max-width: 1280px) {
+    .hero {
+        font-size: 11px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+
+    .hero {
+        font-size: 7.5px;
+    }
+
     .portfolio_page {
         grid-template-columns: 1fr;
         margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        font-size: 5.8px;
     }
 }

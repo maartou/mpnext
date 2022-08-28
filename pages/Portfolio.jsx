@@ -27,10 +27,13 @@ const Portfolio = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
 
-      <Header services="/#servicios" portfolio="/Portfolio" />
+      <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />
+
+      <div className={style.hero}>
+        <h2>Port <br/> folio.</h2>
+      </div>
 
       <Title
-        title="Mi portfolio"
         content="Aqui encontrarás lo mejor de mis diseños para webs, echa un vistazo y disfruta."
       />
 
@@ -48,7 +51,10 @@ const Portfolio = () => {
         <Image src={venecia} alt="venecia branding" />
       </section>
 
-      <Contacto title="¿Te gustaron?" content="Esto es solo una muestra de lo que puedo hacer, ¡ponte en contacto conmigo y hagamos que tu web luzca espectacular!" />
+      <Contacto
+        title="¿Te gustaron?"
+        content="Esto es solo una muestra de lo que puedo hacer, ¡ponte en contacto conmigo y hagamos que tu web luzca espectacular!"
+      />
 
       <Footer
         servicios="/#servicios"

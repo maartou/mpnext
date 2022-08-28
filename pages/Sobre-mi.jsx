@@ -21,10 +21,13 @@ const SobreMi = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
 
-      <Header services="/#servicios" portfolio="/Portfolio" />
+      <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />
+
+      <div className={style.hero}>
+        <h2>Sobre <br/> mi.</h2>
+      </div>
 
       <Title
-        title="Sobre mi"
         content="Bienvenid@ a está curiosa sección dónde puedes conocerme un poco más."
       />
       

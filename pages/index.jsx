@@ -25,7 +25,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Header services="#servicios" portfolio="#portfolio" />
+        <Header services="#servicios" portfolio="#portfolio" servi_nav="#servicios" contacto_nav="#contacto" />
         <Hero />
         <Services />
         <Skills />
