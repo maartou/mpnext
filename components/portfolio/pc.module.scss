@@ -68,31 +68,38 @@ $transition: all 400ms ease;
 }
 
 .link {
-  transition: $transition;
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-  background: $primary;
-  color: $blanco;
-  margin-top: 3rem;
-  text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  font-size: 1.2em;
-  padding: 1em 0;
-  border-radius: 8px;
-  border: 1px solid transparent;
+  a {
+    transition: $transition;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background: $primary;
+    color: $blanco;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 1.2em;
+    padding: 1em 0;
+    border-radius: 8px;
+    border: 1px solid transparent;
 
-  &:hover {
-    border-color: $blanco;
+    &:hover {
+      border-color: $blanco;
+    }
   }
 }
 
 // Laptops
 @media screen and (max-width: 1280px) {
-  .container, .link {
+  .container,
+  .link {
     width: 90%;
+    margin: 0 auto;
+    a {
+      width: 100%;
+    }
   }
 }
 
@@ -104,6 +111,8 @@ $transition: all 400ms ease;
   }
 
   .link {
-    margin-top: 1rem;
+    a {
+      margin-top: 1rem;
+    }
   }
 }

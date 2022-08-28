@@ -1,0 +1,12 @@
+.portfolio_page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio_page {
+        grid-template-columns: 1fr;
+        margin: 4rem 0;
+    }
+}

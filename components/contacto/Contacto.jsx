@@ -10,7 +10,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const Contacto = () => {
+const Contacto = ({title, content}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -38,11 +38,9 @@ const Contacto = () => {
   return (
     <section className={style.section}>
       <div className={style.title}>
-        <h2 id="contacto">Hablemos</h2>
+        <h2 id="contacto">{title}</h2>
         <p>
-          Ponte en contácto conmigo; cúentame qué necesitas y los detalles del
-          servicio que requieres. ¡Trabajemos juntos! y consigamos cumplir todos
-          tus objetivos, te espero para comenzar :)
+          {content}
         </p>
       </div>
 
@@ -107,10 +105,6 @@ const Contacto = () => {
             <AiFillLinkedin className={style.icon} />
             <h4>Martín Eduardo</h4>
           </a>
-        </div>
-
-        <div className={style.illus}>
-          <Image src={illus} alt="" />
         </div>
       </div>
     </section>
