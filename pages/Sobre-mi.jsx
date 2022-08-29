@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Header from "../components/header/Header";
+import Footer from '../components/footer/Footer';
 
 import yo from "../public/img/personas/selfie.jpg";
 import logo from "../public/img/mp_logo.svg";
@@ -88,6 +89,26 @@ const SobreMi = () => {
           </div>
         </div>
       </section>
+
+      <div className={style.curiosidades_container}>
+        <h4>Algunos datos curiosos</h4>
+
+        <ul className={style.list}>
+          <li>Soy una persona muy atlética, me gusta el baloncesto y pasar las tardes haciendo ejercicio.</li>
+          <li>Soy muy fan de los juegos de From Software (Dark souls, Sekiro, Elden Ring, etc...)</li>
+          <li>No veo series porque me parecen muy largos los cápitulos de 1 hora o más.</li>
+          <li>Tengo una perra que se llama Maya y ha mordido a varios amigos, pero es una dulzura.</li>
+        </ul>
+
+        <ul className={style.list}>
+          <li>Soy autodidacta, intento aprender cosas nuevas todos los días.</li>
+          <li>Soy más de día que de noche, me levanto temprano y me acuesto a dormir temprano.</li>
+          <li>Creo que se me dá bastante bien explicar cosas y enseñar</li>
+          <li>Me gusta mucho ayudar y colaborar en cualquier lado, no me gusta que la gente haga las cosas por mí.</li>
+        </ul>
+      </div>
+
+      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="/#contacto" />
     </>
   );
 };
