@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Header from "../components/header/Header";
-import Footer from '../components/footer/Footer';
+import Footer from "../components/footer/Footer";
 
 import yo from "../public/img/personas/selfie.jpg";
 import logo from "../public/img/mp_logo.svg";
@@ -45,15 +45,15 @@ const SobreMi = () => {
             <h3>Desde mis inicios hasta hoy</h3>
             <p>
               Un placer, soy Martín; desarrollador frontend (pronto full-stack)
-              y diseñador UI/UX... <br /> <br/> Soy una persona hambrienta por el
-              conocimiento, intento aprender algo nuevo y dar lo mejor de mi
+              y diseñador UI/UX... <br /> <br /> Soy una persona hambrienta por
+              el conocimiento, intento aprender algo nuevo y dar lo mejor de mi
               cada día, para que mi versión de hoy siempre supere a mi versión
               de ayer. Mi primer contacto con la programación fué en la
               universidad; empecé con Java, sin embargo, esté no fué el inicio
-              de mi carrera como programador. <br/> <br/> Realmente me tomé en serio la
-              programación en Diciembre del 2021 y no he parado de aprender
-              desde entonces, empecé con una página súper sencilla hecha
-              solamente con HTML y CSS y desde allí he ido expandiendo mis
+              de mi carrera como programador. <br /> <br /> Realmente me tomé en
+              serio la programación en Diciembre del 2021 y no he parado de
+              aprender desde entonces, empecé con una página súper sencilla
+              hecha solamente con HTML y CSS y desde allí he ido expandiendo mis
               horizontes, cada vez haciendo programas y diseños más complejos,
               siempre entregando lo mejor de lo mejor en cada uno de mis
               proyectos.
@@ -94,21 +94,46 @@ const SobreMi = () => {
         <h4>Algunos datos curiosos</h4>
 
         <ul className={style.list}>
-          <li>Soy una persona muy atlética, me gusta el baloncesto y pasar las tardes haciendo ejercicio.</li>
-          <li>Soy muy fan de los juegos de From Software (Dark souls, Sekiro, Elden Ring, etc...)</li>
-          <li>No veo series porque me parecen muy largos los cápitulos de 1 hora o más.</li>
-          <li>Tengo una perra que se llama Maya y ha mordido a varios amigos, pero es una dulzura.</li>
+          <li>
+            Soy una persona muy atlética, me gusta el baloncesto y pasar las
+            tardes haciendo ejercicio.
+          </li>
+          <li>
+            Soy muy fan de los juegos de From Software (Dark souls, Sekiro,
+            Elden Ring, etc...)
+          </li>
+          <li>
+            No veo series porque me parecen muy largos los cápitulos de 1 hora o
+            más.
+          </li>
+          <li>
+            Tengo una perra que se llama Maya y ha mordido a varios amigos, pero
+            es una dulzura.
+          </li>
         </ul>
 
         <ul className={style.list}>
-          <li>Soy autodidacta, intento aprender cosas nuevas todos los días.</li>
-          <li>Soy más de día que de noche, me levanto temprano y me acuesto a dormir temprano.</li>
+          <li>
+            Soy autodidacta, intento aprender cosas nuevas todos los días.
+          </li>
+          <li>
+            Soy más de día que de noche, me levanto temprano y me acuesto a
+            dormir temprano.
+          </li>
           <li>Creo que se me dá bastante bien explicar cosas y enseñar</li>
-          <li>Me gusta mucho ayudar y colaborar en cualquier lado, no me gusta que la gente haga las cosas por mí.</li>
+          <li>
+            Me gusta mucho ayudar y colaborar en cualquier lado, no me gusta que
+            la gente haga las cosas por mí.
+          </li>
         </ul>
       </div>
 
-      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="/#contacto" />
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/Portfolio"
+        contacto="/#contacto"
+      />
     </>
   );
 };
