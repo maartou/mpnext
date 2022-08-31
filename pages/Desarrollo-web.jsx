@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import NewHero from "../page_components/newHero/NewHero";
 
 const DesarrolloWeb = () => {
+
   return (
     <>
       <Head>
@@ -16,7 +17,7 @@ const DesarrolloWeb = () => {
         contacto_nav="#contacto"
       />
 
-      <NewHero title="Desarrollo y Diseño web." />
+      <NewHero title="Desarrollo y Diseño web."/>
     </>
   );
 };
