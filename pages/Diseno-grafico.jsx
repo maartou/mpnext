@@ -1,6 +1,15 @@
 import Head from "next/head";
+
 import Header from "../components/header/Header";
 import NewHero from "../page_components/newHero/NewHero";
+import C1 from "../page_components/c1/C1";
+import illus from "../public/img/illustrations/design_illus.svg";
+
+import C2 from "../page_components/c2/C2";
+import { BsLightbulb } from "react-icons/bs";
+import { BiDevices } from "react-icons/bi";
+import { BiShapeSquare } from "react-icons/bi";
+import { MdDesignServices } from "react-icons/md";
 
 const Diseno_grafico = () => {
   return (
@@ -17,6 +26,27 @@ const Diseno_grafico = () => {
       />
 
       <NewHero title="Diseño gráfico." />
+
+      <C1
+        foto={illus}
+        title="Digitalizamos tus ideas"
+        content="Desde el logo de tu empresa hasta revistas, folletos, vallas, banners y toda la imagen que involucre una campaña de mercadeo la hago realidad para ti. Una buena imagen es fundamental."
+      />
+
+      <C2
+        icon1={<BiShapeSquare className="icon" />}
+        servi1="Todos los formatos"
+        content1="Desde un post de instagram hasta vallas publicitarias."
+        icon2={<MdDesignServices className="icon" />}
+        servi2="Dominio de múltiples aplicaciones"
+        content2="Tales como Figma, Photoshop, Illustrator y muchos más."
+        icon3={<BsLightbulb className="icon" />}
+        servi3="Le damos forma a tus ideas"
+        content3="Diseñamos a tu medida, cómo lo necesites y de la manera en que te lo imaginas."
+        icon4={<BiDevices className="icon" />}
+        servi4="Diseño de mockups"
+        content4="Verás tu diseño plasmado en la realidad."
+      />
     </>
   );
 };

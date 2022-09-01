@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap");
 
 $negro: #000000;
 $primary: #2b2bff;
 $blanco: #ffffff;
 
 $transition: all 400ms ease;
-
 
 * {
   box-sizing: border-box;
@@ -19,9 +18,7 @@ $transition: all 400ms ease;
 
 html {
   scroll-behavior: smooth;
-
 }
-
 
 body {
   font-family: "Outfit", sans-serif;
@@ -55,6 +52,12 @@ section {
   background: $primary !important;
 }
 
+.icon {
+  font-size: 4.5rem;
+}
 
-
-
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 3.5rem;
+  }
+}
