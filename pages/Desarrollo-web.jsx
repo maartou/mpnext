@@ -3,14 +3,17 @@ import Head from "next/head";
 import Header from "../components/header/Header";
 import NewHero from "../page_components/newHero/NewHero";
 import C1 from "../page_components/c1/C1";
-import C2 from "../page_components/c2/C2";
 
+import C2 from "../page_components/c2/C2";
+import illus from "../public/img/illustrations/web_illus.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaServer } from "react-icons/fa";
 
-import illus from "../public/img/illustrations/web_illus.svg";
+import Title2 from "../page_components/title_2/Title2";
+
+import GridWeb from "../page_components/grid_img_web/GridWeb";
 
 const DesarrolloWeb = () => {
   return (
@@ -48,6 +51,13 @@ const DesarrolloWeb = () => {
         servi4="Redes sociales"
         content4="¿Quieres que las personas que visiten tu web también visiten tus redes sociales? ¡Es posible!"
       />
+
+      <Title2
+        small="Si tu negocio no está en la web, no existe..."
+        title="Llegó el momento de hacer crecer tu marca"
+      />
+
+      <GridWeb />
     </>
   );
 };

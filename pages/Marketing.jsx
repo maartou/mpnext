@@ -11,6 +11,10 @@ import { BsSearch } from "react-icons/bs";
 import { AiOutlineSchedule } from "react-icons/ai";
 import { FaChessPawn } from "react-icons/fa";
 
+import Title2 from "../page_components/title_2/Title2";
+
+import GridMarketing from "../page_components/grid_marketing/GridMarketing";
+
 const Marketing = () => {
   return (
     <>
@@ -49,6 +53,13 @@ const Marketing = () => {
         content4="Nos enfocaremos en la creación y distribución de contenido relevante y
         de calidad, para dotar de valor y significado a la marca."
       />
+
+      <Title2
+        small="Google, instagram, facebook..."
+        title="Lleva tu negocio a lo más alto"
+      />
+
+      <GridMarketing />
     </>
   );
 };

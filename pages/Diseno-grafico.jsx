@@ -11,6 +11,10 @@ import { BiDevices } from "react-icons/bi";
 import { BiShapeSquare } from "react-icons/bi";
 import { MdDesignServices } from "react-icons/md";
 
+import Title2 from "../page_components/title_2/Title2";
+
+import GridDiseno from '../page_components/grid_img_diseno/GridDiseno';
+
 const Diseno_grafico = () => {
   return (
     <>
@@ -47,6 +51,13 @@ const Diseno_grafico = () => {
         servi4="Diseño de mockups"
         content4="Verás tu diseño plasmado en la realidad."
       />
+
+      <Title2
+        small="Diseño único y exclusivo para ti"
+        title="Tu identidad visual te hará destacar entre la competencia"
+      />
+
+      <GridDiseno />
     </>
   );
 };

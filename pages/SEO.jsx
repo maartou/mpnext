@@ -11,6 +11,7 @@ import { AiOutlineLineChart } from "react-icons/ai";
 import { BiBookBookmark } from "react-icons/bi";
 import { HiOutlinePresentationChartBar } from "react-icons/hi";
 
+
 const SEO = () => {
   return (
     <>
