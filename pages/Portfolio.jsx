@@ -24,7 +24,7 @@ const Portfolio = () => {
     <>
       <Head>
         <title>Portfolio - Martin Padron</title>
-        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
       </Head>
 
       <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />
