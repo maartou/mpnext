@@ -11,6 +11,9 @@ import { AiOutlineLineChart } from "react-icons/ai";
 import { BiBookBookmark } from "react-icons/bi";
 import { HiOutlinePresentationChartBar } from "react-icons/hi";
 
+import Contacto from "../components/contacto/Contacto";
+
+import Footer from "../components/footer/Footer";
 
 const SEO = () => {
   return (
@@ -47,6 +50,18 @@ const SEO = () => {
         icon4={<HiOutlinePresentationChartBar className="icon" />}
         servi4="Mejora tus métricas"
         content4="El primer paso es que te encuentren. Consiguen más tráfico de manera orgánica"
+      />
+
+      <Contacto
+        title="No esperes más"
+        content="Empieza a aparecer en las primeras posiciones y dale la popularidad a tu marca que se merece."
+      />
+
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/Portfolio"
+        contacto="#contacto"
       />
     </>
   );

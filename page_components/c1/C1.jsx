@@ -12,7 +12,7 @@ const C1 = ({ foto, title, content }) => {
         <h2>{title}</h2>
         <p>{content}</p>
         <div className={style.btn}>
-          <Link href="#contact">Me interesa</Link>
+          <Link href="#contacto">Me interesa</Link>
         </div>
       </div>
     </section>

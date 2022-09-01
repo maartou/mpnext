@@ -13,7 +13,11 @@ import { MdDesignServices } from "react-icons/md";
 
 import Title2 from "../page_components/title_2/Title2";
 
-import GridDiseno from '../page_components/grid_img_diseno/GridDiseno';
+import GridDiseno from "../page_components/grid_img_diseno/GridDiseno";
+
+import Contacto from "../components/contacto/Contacto";
+
+import Footer from "../components/footer/Footer";
 
 const Diseno_grafico = () => {
   return (
@@ -58,6 +62,18 @@ const Diseno_grafico = () => {
       />
 
       <GridDiseno />
+
+      <Contacto
+        title="Tus ideas hechas realidad"
+        content="Ponte en contacto conmigo y cúentame tus ideas, te aseguro que las haremos realidad..."
+      />
+
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/Portfolio"
+        contacto="#contacto"
+      />
     </>
   );
 };

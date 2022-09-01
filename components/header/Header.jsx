@@ -39,6 +39,10 @@ const Header = ({ services, portfolio, servi_nav, contacto_nav }) => {
           <li>
             <Link href={contacto_nav}> Contacto </Link>
           </li>
+
+          <li>
+            <Link href="/Precios"> Cotizaciones </Link>
+          </li>
         </ul>
       </div>
     );
@@ -63,6 +67,7 @@ const Header = ({ services, portfolio, servi_nav, contacto_nav }) => {
         <Link href="/Sobre-mi"> Sobre mi </Link>
         <Link href={services}> Servicios </Link>
         <Link href={portfolio}> Portfolio </Link>
+        <Link href="/Precios">Cotizaciones</Link>
       </nav>
 
       <nav className={style.responsive_nav}>

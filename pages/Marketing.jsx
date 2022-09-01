@@ -15,6 +15,10 @@ import Title2 from "../page_components/title_2/Title2";
 
 import GridMarketing from "../page_components/grid_marketing/GridMarketing";
 
+import Contacto from "../components/contacto/Contacto";
+
+import Footer from "../components/footer/Footer";
+
 const Marketing = () => {
   return (
     <>
@@ -60,6 +64,10 @@ const Marketing = () => {
       />
 
       <GridMarketing />
+
+      <Contacto title="¿Comenzamos?" content="No esperes más y empieza a ganar clientes a través de internet" />
+
+      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="#contacto" />
     </>
   );
 };

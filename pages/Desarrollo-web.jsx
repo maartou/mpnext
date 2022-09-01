@@ -15,6 +15,10 @@ import Title2 from "../page_components/title_2/Title2";
 
 import GridWeb from "../page_components/grid_img_web/GridWeb";
 
+import Contacto from "../components/contacto/Contacto"
+
+import Footer from "../components/footer/Footer";
+
 const DesarrolloWeb = () => {
   return (
     <>
@@ -58,6 +62,10 @@ const DesarrolloWeb = () => {
       />
 
       <GridWeb />
+
+      <Contacto title="¿Listo para despegar?" content="Rellena el formulario o escríbeme al Whatsapp para cotizaciones y más información, te atenderé a la brevedad" />
+
+      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="#contacto" />
     </>
   );
 };
