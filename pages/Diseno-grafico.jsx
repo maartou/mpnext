@@ -25,6 +25,8 @@ const Diseno_grafico = () => {
       <Head>
         <title>Diseño gráfico | Martín Padrón</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Diseño grafico, Branding y creacion de logos. Hacemos realidad tus ideas dandole vida a tu marca" />
+        <meta name="keywords" content="diseño grafico, branding, creacion de logos, crear logo, redes sociales, instagram, facebook, illustrator, photoshop, figma, canva" />
       </Head>
 
       <Header

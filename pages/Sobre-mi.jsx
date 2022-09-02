@@ -19,6 +19,8 @@ const SobreMi = () => {
       <Head>
         <title> Sobre mi - Martin Padrón </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Soy Martin Padron, desarrollador frontend y diseñador ui/ux. Entra y conóceme un poco más." />
+        <meta name="keywords" content="martin padron, martin eduardo, martin padron programador, martin padron desarrollador web, martin padron desarrollador, frontend" />
       </Head>
 
       <Header

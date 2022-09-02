@@ -35,7 +35,7 @@ export default function Home() {
         <meta
           name="keywords"
           content="pagina web, sitio web, crear pagina web, programacion, javascript, html, css, desarrollo web, diseño ui, diseño ux, ui, ux, diseño de interfaz, freelance, diseño grafico, marketing, programador, martin padron,
-          programador venezuela, pagina web venezuela, diseño web venezuela, diseño web"
+          programador venezuela, pagina web venezuela, diseño web venezuela, diseño web, martin padron, martin eduardo"
         />
       </Head>
 

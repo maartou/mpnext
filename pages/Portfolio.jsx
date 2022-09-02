@@ -25,6 +25,8 @@ const Portfolio = () => {
       <Head>
         <title>Portfolio - Martin Padron</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Bienvenido a mi portfolio. Aquí encontrarás lo último en diseño y desarrollo web" />
+        <meta name="keywords" content="martin padron, martin padron portfolio, martin eduardo, martin eduardo portfolio, portfolio" />
       </Head>
 
       <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />

@@ -21,6 +21,8 @@ const SEO = () => {
       <Head>
         <title>SEO | Martín Padrón</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Consigue los primeros lugares en Google con las ultimas estrategias en SEO y SEM" />
+        <meta name="keywords" content="seo, sem, martin padron seo, seo pagina web, seo sitio web, martin padron sem, seo desarrollo web, seo programacion, seo web" />
       </Head>
 
       <Header

@@ -24,6 +24,8 @@ const DesarrolloWeb = () => {
     <>
       <Head>
         <title>Desarrollo y Diseño web | Martín Padrón</title>
+        <meta name="description" content="Desarrollo y Diseño web. ¿Necesitas una web para tu negocio? estás en el lugar indicado." />
+        <meta name="keywords" content="pagina web, sitio web, diseño web, desarrollo web, programador web, programador, programacion web, hacer pagina web, tener sitio web" />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
 

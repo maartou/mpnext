@@ -25,6 +25,8 @@ const Marketing = () => {
       <Head>
         <title>Marketing | Martín Padrón</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Marketing digital para que empieces a ganar clientes a traves de internet con las mejores estrategias adaptadas a las necesidades de tu marca o empresa." />
+        <meta name="keywords" content="marketing, marketing digital, instagram, facebook, tiktok, community manager, social media" />
       </Head>
 
       <Header
