@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import Services from "../components/services/Services";
@@ -11,6 +12,19 @@ import Footer from "../components/footer/Footer";
 export default function Home() {
   return (
     <>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-WKJLZ67KL9"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {` window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WKJLZ67KL9');`}
+      </Script>
+
       <Head>
         <title>Martín Padrón | Desarrollo y Diseño web</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
@@ -24,8 +38,14 @@ export default function Home() {
           programador venezuela, pagina web venezuela, diseño web venezuela, diseño web"
         />
       </Head>
+
       <main>
-        <Header services="#servicios" portfolio="#portfolio" servi_nav="#servicios" contacto_nav="#contacto" />
+        <Header
+          services="#servicios"
+          portfolio="#portfolio"
+          servi_nav="#servicios"
+          contacto_nav="#contacto"
+        />
         <Hero />
         <Services />
         <Skills />
