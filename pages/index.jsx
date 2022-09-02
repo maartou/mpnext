@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Martín Padrón | Desarrollo y Diseño web</title>
-        <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
           content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y démosle presencia a tu negocio o empresa en el vasto mundo del internet, consigue clientes y potencia tus ventas conmigo."

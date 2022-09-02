@@ -10,6 +10,7 @@ const Precios = () => {
     <>
       <Head>
         <title>Precios | Martín Padrón</title>
+        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
 
       <Header
