@@ -118,7 +118,7 @@ const Testimonios = () => {
             Manuela Serrano <br /> <span>Artista</span>
           </h4>
           <p>
-            Si pudiera definir toda la experiecnai en una sola palabra sería:
+            Si pudiera definir toda la experiencia en una sola palabra sería:
             eficaz.
           </p>
           <p>
@@ -251,7 +251,7 @@ const Testimonios = () => {
             Manuela Serrano <br /> <span>Artista</span>
           </h4>
           <p>
-            Si pudiera definir toda la experiecnai en una sola palabra sería:
+            Si pudiera definir toda la experiecia en una sola palabra sería:
             eficaz.
           </p>
           <p>
