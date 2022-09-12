@@ -5,7 +5,7 @@ import AVATAR2 from "../../public/img/personas/Papa.jpg";
 import AVATAR3 from "../../public/img/personas/omar.jpg";
 import AVATAR4 from "../../public/img/personas/mike.jpeg";
 import AVATAR5 from "../../public/img/personas/samu.jpeg";
-import AVATAR6 from "../../public/img/personas/npc.jpg";
+import AVATAR6 from "../../public/img/personas/manu_about.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -112,17 +112,20 @@ const Testimonios = () => {
 
         <article className={style.item}>
           <div className={style.foto}>
-            <Image src={AVATAR6} alt="María Peréz" />
+            <Image src={AVATAR6} alt="Manuela Serrano" />
           </div>
           <h4>
-            María Peréz <br /> <span>Comerciante</span>
+            Manuela Serrano <br /> <span>Artista</span>
           </h4>
           <p>
-            Martín es tremendo profesional y una gran persona con la que me
-            encantó trabajar. Me realizó un diseño impecable en mi página web y
-            quedé súper fascinada con su manera de trabajar. <br /> <br />
-            Además de que trabajó increíblemente rápido y siempre me cumplió con
-            todo lo que le pedí, definitivamente superó mis expectativas.
+            Si pudiera definir toda la experiecnai en una sola palabra sería:
+            eficaz.
+          </p>
+          <p>
+            Para un artista es de suma importancia la comunicación rápida, y
+            ahora que puedo tener en un sólo sitio toda mi información musical,
+            recaudaciones, contacto y contrataciones siento que puedo impulsar
+            mi carrera en una forma creativa e instantánea.
           </p>
         </article>
       </div>
@@ -240,21 +243,24 @@ const Testimonios = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <article className={style.item}>
-            <div className={style.foto}>
-              <Image src={AVATAR6} alt="María Peréz" />
-            </div>
-            <h4>
-              María Peréz <br /> <span>Comerciante</span>
-            </h4>
-            <p>
-              Martín es tremendo profesional y una gran persona con la que me
-              encantó trabajar. Me realizó un diseño impecable en mi página web
-              y quedé súper fascinada con su manera de trabajar. <br /> <br />
-              Además de que trabajó increíblemente rápido y siempre me cumplió
-              con todo lo que le pedí, definitivamente superó mis expectativas.
-            </p>
-          </article>
+        <article className={style.item}>
+          <div className={style.foto}>
+            <Image src={AVATAR6} alt="Manuela Serrano" />
+          </div>
+          <h4>
+            Manuela Serrano <br /> <span>Artista</span>
+          </h4>
+          <p>
+            Si pudiera definir toda la experiecnai en una sola palabra sería:
+            eficaz.
+          </p>
+          <p>
+            Para un artista es de suma importancia la comunicación rápida, y
+            ahora que puedo tener en un sólo sitio toda mi información musical,
+            recaudaciones, contacto y contrataciones siento que puedo impulsar
+            mi carrera en una forma creativa e instantánea.
+          </p>
+        </article>
         </SwiperSlide>
       </Swiper>
       <p className={style.swipe}>Desliza &rarr;</p>
