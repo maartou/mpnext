@@ -26,17 +26,31 @@ export default function Home() {
       </Script>
 
       <Head>
-        <title>Martín Padrón | Desarrollo y Diseño web</title>
+        <title>Martin Padron | Desarrollo y Diseño web</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
-          content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y démosle presencia a tu negocio o empresa en el vasto mundo del internet, consigue clientes y potencia tus ventas conmigo."
+          content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y llevemos tu negocio, marca o empresa a la web de la mano de las últimas tecnologías y estrategias más eficientes."
         />
         <meta
           name="keywords"
           content="pagina web, sitio web, crear pagina web, programacion, javascript, html, css, desarrollo web, diseño ui, diseño ux, ui, ux, diseño de interfaz, freelance, diseño grafico, marketing, programador, martin padron,
           programador venezuela, pagina web venezuela, diseño web venezuela, diseño web, martin padron, martin eduardo"
         />
+
+        <meta
+          property="og:title"
+          content="Martin Padron | Desarrollo y Diseño web"
+        />
+
+        <meta
+          property="og:description"
+          content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y llevemos tu negocio, marca o empresa a la web de la mano de las últimas tecnologías y estrategias más eficientes."
+        />
+
+        <meta property="og:image" content="/public/img/og_image.svg" />
+
+        <meta property="og:site_name" content="Martin Padron" />
       </Head>
 
       <main>
