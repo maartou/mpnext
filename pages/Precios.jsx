@@ -1,9 +1,11 @@
 import Head from "next/head";
+import Image from "next/image";
 import style from "../styles/Precios.module.scss";
 import { BsPatchCheckFill } from "react-icons/bs";
 import Header from "../components/header/Header";
 import Contacto from "../components/contacto/Contacto";
 import Footer from "../components/footer/Footer";
+import OG from "../public/img/og_image.jpg";
 
 const Precios = () => {
   return (
@@ -166,6 +168,10 @@ const Precios = () => {
       </div>
 
       <Contacto title="¿Alguna Duda?" content="Puedes rellenar el formulario si algo no te quedó completamente claro o puedes escribirme al Whatsapp para discutir más detalles." />
+
+      <div className={style.foto}>
+        <Image src={OG} alt="Martin Padron logo" />
+      </div>
 
       <Footer
         servicios="/#servicios"

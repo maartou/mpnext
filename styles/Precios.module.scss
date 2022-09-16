@@ -113,6 +113,11 @@ $primary: #2b2bff;
     }
 }
 
+.foto {
+  width: 70%;
+  margin: 0 auto;
+}
+
 // Laptops
 @media screen and (min-width: 768px) {
 
@@ -122,6 +127,10 @@ $primary: #2b2bff;
 
     .btn_l {
         margin-top: 15.4rem;
+    }
+
+    .foto {
+      width: 30%;
     }
 
 }
