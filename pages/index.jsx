@@ -40,7 +40,7 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Martin Padron | Desarrollo y Diseño web"
+          content="Martin Padron | Diseño y Desarrollo web"
         />
 
         <meta
@@ -48,7 +48,7 @@ export default function Home() {
           content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y llevemos tu negocio, marca o empresa a la web de la mano de las últimas tecnologías y estrategias más eficientes."
         />
 
-        <meta property="og:image" content="/public/img/og_image.jpg" />
+        <meta property="og:image" content="./public/img/og_image.jpg" />
 
         <meta property="og:site_name" content="Martin Padron" />
       </Head>
