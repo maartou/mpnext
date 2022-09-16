@@ -40,7 +40,7 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Martin Padron | Diseño y Desarrollo web"
+          content="Martin Padron | Desarrollo y Diseño web"
         />
 
         <meta
@@ -49,6 +49,11 @@ export default function Home() {
         />
 
         <meta property="og:site_name" content="Martin Padron" />
+
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <main>
