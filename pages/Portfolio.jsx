@@ -27,6 +27,10 @@ const Portfolio = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="description" content="Bienvenido a mi portfolio. Aquí encontrarás lo último en diseño y desarrollo web" />
         <meta name="keywords" content="martin padron, martin padron portfolio, martin eduardo, martin eduardo portfolio, portfolio" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />

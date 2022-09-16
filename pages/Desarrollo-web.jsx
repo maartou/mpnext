@@ -27,6 +27,10 @@ const DesarrolloWeb = () => {
         <meta name="description" content="Desarrollo y Diseño web. ¿Necesitas una web para tu negocio? estás en el lugar indicado." />
         <meta name="keywords" content="pagina web, sitio web, diseño web, desarrollo web, programador web, programador, programacion web, hacer pagina web, tener sitio web" />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header

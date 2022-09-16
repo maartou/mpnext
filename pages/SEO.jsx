@@ -23,6 +23,10 @@ const SEO = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="description" content="Consigue los primeros lugares en Google con las ultimas estrategias en SEO y SEM" />
         <meta name="keywords" content="seo, sem, martin padron seo, seo pagina web, seo sitio web, martin padron sem, seo desarrollo web, seo programacion, seo web" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header

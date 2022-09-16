@@ -27,6 +27,10 @@ const Marketing = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="description" content="Marketing digital para que empieces a ganar clientes a traves de internet con las mejores estrategias adaptadas a las necesidades de tu marca o empresa." />
         <meta name="keywords" content="marketing, marketing digital, instagram, facebook, tiktok, community manager, social media" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header

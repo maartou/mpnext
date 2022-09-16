@@ -27,6 +27,10 @@ const Diseno_grafico = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="description" content="Diseño grafico, Branding y creacion de logos. Hacemos realidad tus ideas dandole vida a tu marca" />
         <meta name="keywords" content="diseño grafico, branding, creacion de logos, crear logo, redes sociales, instagram, facebook, illustrator, photoshop, figma, canva" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header

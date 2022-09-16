@@ -15,6 +15,10 @@ const Precios = () => {
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="description" content="Obten cotizaciones y precios para diseño y desarrollo web, todo en un solo lugar" />
         <meta name="keywords" content="martin padron, martin padron precios, martin eduardo, martin eduardo precios" />
+        <meta
+          property="og:image"
+          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        />
       </Head>
 
       <Header
