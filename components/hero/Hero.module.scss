@@ -7,7 +7,7 @@ $transition: all 400ms ease;
   width: max-content;
   display: inline-block;
   color: $blanco;
-  padding: 0.75em 1.2em;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   transition: $transition;
@@ -22,55 +22,47 @@ $transition: all 400ms ease;
   }
 }
 
-.linker {
-  a {
-    display: block;
-    width: 90%;
-    margin: 1.5em auto;
-    border: 1px solid $blanco;
-    border-radius: 8px;
-    padding: 1em;
-    text-align: center;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    transition: $transition;
-    &:hover {
-      background: $primary;
-      border-color: transparent;
-      color: $blanco;
-    }
-  }
+.section {
+  margin-bottom: 3rem;
+}
+
+.square {
+  background: $blanco;
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
 }
 
 .banner {
   width: 90%;
   margin: 0 auto;
-  background: $blanco;
   color: $negro;
+  padding: 0 0.5em;
 
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
 
-  gap: 1em;
+  place-items: center;
 
-  padding: 1em 1em 0 1em;
+  position: relative;
 }
 
 .content {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  z-index: 5;
 
   h1 {
     color: $primary;
+    width: 50%;
     text-transform: uppercase;
-    font-size: 2.2em;
+    line-height: 1.3em;
+    font-size: 2.5em;
   }
 
   h2 {
-    font-weight: 400;
-    font-size: 1.1em;
+    font-size: 0.9em;
+    font-weight: 500;
   }
 
   a {
@@ -79,29 +71,46 @@ $transition: all 400ms ease;
 }
 
 .foto {
-  width: 65%;
-  margin: 0 auto;
-  text-align: center;
-  filter: drop-shadow(-27px 0px 15px rgba(0, 0, 0, 0.25));
+  z-index: 5;
+  max-width: 25rem;
+  filter: drop-shadow(-27px 0px 15px rgba(0, 0, 0, 0.35));
+}
+
+.intro {
+  background: $primary;
+  width: 90%;
+  margin: 2em auto 0 auto;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    &:hover {
+      color: $blanco;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .foto {
-    width: 50%;
-  }
-
   .banner {
-    gap: 1.5em;
+    padding: 0 1em;
   }
 
   .content {
-    font-size: 20px;
+    font-size: 25px;
   }
 
-  .linker {
-    a {
-      width: 70%;
-      font-size: 1.3em;
+  .foto {
+    width: 80%;
+  }
+
+  .intro {
+    p {
+      font-size: 1.1em;
     }
   }
 }
@@ -109,82 +118,62 @@ $transition: all 400ms ease;
 @media screen and (min-width: 1024px) {
   .section {
     position: relative;
-    height: 93vh;
-    display: flex;
   }
 
-  .linker {
-    a {
-      border-radius: 0;
-      width: 30%;
-      position: absolute;
-      bottom: 0;
-      left: 3rem;
-      background: $primary;
-      border-color: transparent;
-      margin: 0;
-      padding: 3rem 1rem;
-
-      &:hover {
-        background: black;
-        border-color: $blanco;
-      }
-
-    }
+  .square {
+    height: 80%;
   }
 
   .banner {
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 77vh;
     width: 80%;
-    align-self: end;
-    gap: 0;
-    padding-left: 2em;
-  }
-
-  .content {
-    font-size: 27px;
-    align-items: flex-start;
-    margin-bottom: 8rem;
-
-    h1 {
-      line-height: 1.4em;
-      text-align: start;
-      width: 70%;
-    }
+    grid-template-columns: 2fr 1fr;
+    height: 90vh;
+    place-content: end;
   }
 
   .foto {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 20rem;
+    width: 90%;
   }
-}
-
-@media screen and (min-width: 1600px) {
 
   .content {
-    font-size: 60px;
+    font-size: 35px;
+    margin-bottom: 3em;
 
     h1 {
       line-height: 1.2em;
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     a {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
 
-  .foto {
-    width: 26rem;
-    right: 5em;
+  .intro {
+    z-index: 5;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 2em;
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+
+  .content {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .intro {
+    width: 40%;
   }
 
 }

@@ -3,8 +3,8 @@ import Image from "next/image";
 import risup from "../../public/img/portfolio/risup.png";
 import modu from "../../public/img/portfolio/modu.png";
 import manu from "../../public/img/portfolio/manu.jpg";
-import jh from "../../public/img/portfolio/jh.png";
 import venecia from "../../public/img/portfolio/venecia.jpg";
+import sized from "../../public/img/portfolio/sized.jpg";
 import Link from "next/link";
 
 const PortfolioComp = () => {
@@ -52,9 +52,21 @@ const PortfolioComp = () => {
           </a>
         </article>
 
-        <div className={style.figma}>
-          <Image src={venecia} alt="venecia branding" />
-        </div>
+        <article className={style.p_item}>
+          <Image src={sized} alt="Sized franelas" />
+          <h3>SIZED clothing</h3>
+          <a
+            className={style.btn}
+            href="https://www.sizedstore.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visitar sitio
+          </a>
+        </article>
+
+
+
 
       </div>
 
