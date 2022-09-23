@@ -116,35 +116,20 @@ $transition: all 400ms ease;
 }
 
 @media screen and (min-width: 1024px) {
-  .section {
-    position: relative;
-  }
-
-  .square {
-    height: 80%;
-  }
-
   .banner {
     width: 80%;
-    grid-template-columns: 2fr 1fr;
-    height: 90vh;
-    place-content: end;
+    padding: 0 2em;
   }
 
   .foto {
-    width: 90%;
+    width: 60%;
   }
 
   .content {
     font-size: 35px;
-    margin-bottom: 3em;
-
-    h1 {
-      line-height: 1.2em;
-    }
 
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 
     a {
@@ -153,27 +138,36 @@ $transition: all 400ms ease;
   }
 
   .intro {
-    z-index: 5;
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    left: 2em;
-    p {
-      font-size: 1rem;
-    }
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 1600px) {
 
+  .section {
+    position: relative;
+  }
 
   .content {
-    font-size: 50px;
-    margin-bottom: 0;
+    font-size: 48px;
+    margin-bottom: 3.5rem;
+
+    h2 {
+      font-size: 1.3rem;
+    }
   }
 
   .intro {
-    width: 40%;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+    width: 45%;
+
+    p {
+      font-size: 1.1rem;
+    }
+
   }
 
 }
