@@ -40,7 +40,7 @@ $transition: all 400ms ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1em;
+  gap: 1.3em;
 
   h4 {
     font-weight: 400;
@@ -112,6 +112,20 @@ $transition: all 400ms ease;
   li {
     font-size: 1.1em;
     margin-bottom: 1.3rem;
+  }
+}
+
+.cv {
+  width: 30%;
+  border: 1px solid $blanco;
+  padding: 1em .5em;
+  text-align: center;
+  border-radius: 8px;
+  transition: $transition;
+  &:hover {
+    background: $primary;
+    color: $blanco;
+    border-color: transparent;
   }
 }
 

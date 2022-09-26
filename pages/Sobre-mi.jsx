@@ -19,8 +19,14 @@ const SobreMi = () => {
       <Head>
         <title> Sobre mi - Martin Padrón </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
-        <meta name="description" content="Soy Martin Padron, desarrollador frontend y diseñador ui/ux. Entra y conóceme un poco más." />
-        <meta name="keywords" content="martin padron, martin eduardo, martin padron programador, martin padron desarrollador web, martin padron desarrollador, frontend" />
+        <meta
+          name="description"
+          content="Soy Martin Padron, desarrollador frontend y diseñador ui/ux. Entra y conóceme un poco más."
+        />
+        <meta
+          name="keywords"
+          content="martin padron, martin eduardo, martin padron programador, martin padron desarrollador web, martin padron desarrollador, frontend"
+        />
         <meta
           property="og:image"
           content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
@@ -92,6 +98,10 @@ const SobreMi = () => {
                 <AiFillLinkedin className={style.icon} />
               </a>
             </div>
+            <a href="/cv.pdf" target="_blank" download="Martin Padron CV" className={style.cv}>
+              {" "}
+              Descargar CV{" "}
+            </a>
           </div>
         </div>
       </section>
