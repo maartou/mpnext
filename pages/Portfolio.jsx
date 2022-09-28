@@ -36,7 +36,7 @@ const Portfolio = () => {
       <Header services="/#servicios" portfolio="/Portfolio" servi_nav="/#servicios" contacto_nav="#contacto" />
 
       <div className={style.hero}>
-        <h2>Port <br/> folio.</h2>
+        <h1>Port <br/> folio.</h1>
       </div>
 
       <Title

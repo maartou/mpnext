@@ -41,9 +41,9 @@ const SobreMi = () => {
       />
 
       <div className={style.hero}>
-        <h2>
+        <h1>
           Sobre <br /> mi.
-        </h2>
+        </h1>
       </div>
 
       <section className={style.section}>
