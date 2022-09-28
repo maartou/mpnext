@@ -12,27 +12,27 @@ const GridDiseno = () => {
   return (
     <div className={style.grid}>
       <div className={style.img_container}>
-        <Image src={catfe} alt="catfe" />
+        <Image src={catfe} alt="catfe" placeholder="blur" />
       </div>
 
       <div className={style.img_container}>
-        <Image src={futux} alt="futux" />
+        <Image src={futux} alt="futux" placeholder="blur" />
       </div>
 
       <div className={style.img_container}>
-        <Image src={menu} alt="menu perros de rocko" />
+        <Image src={menu} alt="menu perros de rocko" placeholder="blur" />
       </div>
 
       <div className={style.img_container}>
-        <Image src={piel} alt="Piel branding" />
+        <Image src={piel} alt="Piel branding" placeholder="blur" />
       </div>
 
       <div className={style.img_container}>
-        <Image src={tarjetas} alt="tarjetas tododesechables" />
+        <Image src={tarjetas} alt="tarjetas tododesechables" placeholder="blur" />
       </div>
 
       <div className={style.img_container}>
-        <Image src={venecia} alt="venecia branding" />
+        <Image src={venecia} alt="venecia branding" placeholder="blur" />
       </div>
     </div>
   );

@@ -12,27 +12,27 @@ const GridWeb = () => {
   return (
     <div className={style.grid}>
         <div className={style.img_container}>
-          <Image src={gym} alt="Gym landing page" />
+          <Image src={gym} alt="Gym landing page" placeholder="blur" />
         </div>
 
         <div className={style.img_container}>
-          <Image src={venezuela} alt="Venezuela landing page" />
+          <Image src={venezuela} alt="Venezuela landing page" placeholder="blur" />
         </div>
 
         <div className={style.img_container}>
-          <Image src={hollow} alt="Hollow Knight landing page" />
+          <Image src={hollow} alt="Hollow Knight landing page" placeholder="blur" />
         </div>
 
         <div className={style.img_container}>
-          <Image src={jh} alt="Juan Hernandez" />
+          <Image src={jh} alt="Juan Hernandez" placeholder="blur" />
         </div>
 
         <div className={style.img_container}>
-          <Image src={venecia} alt="Venecia landing page" />
+          <Image src={venecia} alt="Venecia landing page" placeholder="blur" />
         </div>
 
         <div className={style.img_container}>
-          <Image src={jordans} alt="Jordans landing page" />
+          <Image src={jordans} alt="Jordans landing page" placeholder="blur" />
         </div>
     </div>
   )
