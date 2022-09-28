@@ -44,17 +44,17 @@ const Portfolio = () => {
       />
 
       <section className={style.portfolio_page}>
-        <Image src={jh} alt="Juan hernadez" />
-        <Image src={gym} alt="gym landing page" />
-        <Image src={jordans} alt="jordan shoe landing page" />
-        <Image src={hollow} alt="hollow knight landing page" />
-        <Image src={stile} alt="stile landing page" />
-        <Image src={homes} alt="home landing page" />
-        <Image src={mascotas} alt="mascotas landing page" />
-        <Image src={makeup} alt="makeup landing page" />
-        <Image src={tasty} alt="tasty burger landing page" />
-        <Image src={venezuela} alt="venezuela landing page" />
-        <Image src={venecia} alt="venecia branding" />
+        <Image src={jh} alt="Juan hernadez" placeholder="blur" />
+        <Image src={gym} alt="gym landing page" placeholder="blur" />
+        <Image src={jordans} alt="jordan shoe landing page" placeholder="blur" />
+        <Image src={hollow} alt="hollow knight landing page" placeholder="blur" />
+        <Image src={stile} alt="stile landing page" placeholder="blur" />
+        <Image src={homes} alt="home landing page" placeholder="blur" />
+        <Image src={mascotas} alt="mascotas landing page" placeholder="blur" />
+        <Image src={makeup} alt="makeup landing page" placeholder="blur" />
+        <Image src={tasty} alt="tasty burger landing page" placeholder="blur" />
+        <Image src={venezuela} alt="venezuela landing page" placeholder="blur" />
+        <Image src={venecia} alt="venecia branding" placeholder="blur" />
       </section>
 
       <Contacto
