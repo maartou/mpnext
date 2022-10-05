@@ -26,7 +26,7 @@ export default function Home() {
       </Script>
 
       <Head>
-        <title>Martin Padron | Desarrollo y Diseño web</title>
+        <title>Martin Padron | Desarrollo y diseño web en Venezuela</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
@@ -34,8 +34,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="pagina web, sitio web, crear pagina web, programacion, javascript, html, css, desarrollo web, diseño ui, diseño ux, ui, ux, diseño de interfaz, freelance, diseño grafico, marketing, programador, martin padron,
-          programador venezuela, pagina web venezuela, diseño web venezuela, diseño web, martin padron, martin eduardo"
+          content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
         />
 
         <meta

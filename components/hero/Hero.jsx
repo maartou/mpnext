@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
 
         <div className={style.foto}>
-          <Image src={yo} alt="Martin Padron desarrrollador web" />
+          <Image src={yo} alt="Martin Padron" priority/>
         </div>
       <div className={style.square}></div>
 
