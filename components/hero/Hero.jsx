@@ -4,9 +4,22 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className={style.section}>
-      {/* <div className={style.circle}>
+
+      {/* Circulos  */}
+      <div className={`${style.circle} ${style.c1}`}>
         <div className={style.circle_sm}></div>
-      </div> */}
+      </div>
+      <div className={`${style.circle} ${style.c2}`}>
+        <div className={style.circle_sm}></div>
+      </div>
+      <div className={`${style.circle} ${style.c3}`}>
+        <div className={style.circle_sm}></div>
+      </div>
+      <div className={`${style.circle} ${style.c4}`}>
+        <div className={style.circle_sm}></div>
+      </div>
+
+      {/* Contenido  */}
       <div className={style.content}>
         <h1>
           Lleva tu negocio al siguiente nivel <br />
@@ -21,10 +34,10 @@ const Hero = () => {
         </h2>
         <div className={style.btn_container}>
           <div className={style.btn_primary}>
-            <Link href="#"> Contáctame </Link>
+            <Link href="#contacto"> Contáctame </Link>
           </div>
           <div className={style.btn_secondary}>
-            <Link href="#"> Entérate cómo </Link>
+            <Link href="/Desarrollo-web"> Entérate cómo </Link>
           </div>
         </div>
       </div>
