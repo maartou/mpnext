@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../components/header/Header";
-import NewHero from "../page_components/newHero/NewHero";
 
 import C1 from "../page_components/c1/C1";
 import illus from "../public/img/illustrations/seo_illus.svg";
@@ -35,8 +34,6 @@ const SEO = () => {
         servi_nav="/#servicios"
         contacto_nav="#contacto"
       />
-
-      <NewHero title="SEO." />
 
       <C1
         foto={illus}

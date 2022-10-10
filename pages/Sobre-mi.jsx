@@ -49,7 +49,7 @@ const SobreMi = () => {
       <section className={style.section}>
         <div className={style.container}>
           <div className={style.foto}>
-            <Image src={yo} alt="Martín Padrón selfie" />
+            <Image src={yo} alt="Martín Padrón" />
           </div>
 
           <div className={style.descri}>
