@@ -26,11 +26,11 @@ export default function Home() {
       </Script>
 
       <Head>
-        <title>Martin Padron | Desarrollo y diseño web en Venezuela</title>
+        <title>Martin Padron | Desarrollo y diseño de páginas web en Venezuela</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
-          content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y llevemos tu negocio, marca o empresa a la web de la mano de las últimas tecnologías y estrategias más eficientes."
+          content="Diseño y desarrollo de páginas web a medida y en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
         />
         <meta
           name="keywords"
@@ -39,12 +39,12 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Martin Padron | Desarrollo y Diseño web"
+          content="Martin Padron | Desarrollo y diseño de páginas web en Venezuela"
         />
 
         <meta
           property="og:description"
-          content="Desarrollador Frontend y Diseñador UI/UX. Entra a conocerme y llevemos tu negocio, marca o empresa a la web de la mano de las últimas tecnologías y estrategias más eficientes."
+          content="Diseño y desarrollo de páginas web a medida y en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
         />
 
         <meta property="og:site_name" content="Martin Padron" />
