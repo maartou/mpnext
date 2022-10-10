@@ -55,13 +55,14 @@ export default function Home() {
         />
       </Head>
 
-      <main>
-        <Header
+      <Header
           services="#servicios"
           portfolio="#portfolio"
           servi_nav="#servicios"
           contacto_nav="#contacto"
         />
+
+      <main>
         <Hero />
         <Services />
         <Skills />
@@ -71,13 +72,14 @@ export default function Home() {
           title="Hablemos"
           content="Ponte en contácto conmigo; cúentame qué necesitas y los detalles del servicio que requieres. ¡Trabajemos juntos! y consigamos cumplir todos tus objetivos, te espero para comenzar :)"
         />
-        <Footer
+      </main>
+
+      <Footer
           servicios="#servicios"
           experiencia="#experiencia"
           portfolio="#portfolio"
           contacto="#contacto"
         />
-      </main>
     </>
   );
 }
