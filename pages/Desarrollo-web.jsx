@@ -1,8 +1,9 @@
 import Head from "next/head";
 
 import Header from "../components/header/Header";
-import NewHero from "../page_components/newHero/NewHero";
 import C1 from "../page_components/c1/C1";
+
+import Contenido from "../page_components/contenido/Contenido";
 
 import C2 from "../page_components/c2/C2";
 import illus from "../public/img/illustrations/web_illus.svg";
@@ -15,7 +16,7 @@ import Title2 from "../page_components/title_2/Title2";
 
 import GridWeb from "../page_components/grid_img_web/GridWeb";
 
-import Contacto from "../components/contacto/Contacto"
+import Contacto from "../components/contacto/Contacto";
 
 import Footer from "../components/footer/Footer";
 
@@ -23,9 +24,15 @@ const DesarrolloWeb = () => {
   return (
     <>
       <Head>
-        <title>Desarrollo y Diseño web | Martín Padrón</title>
-        <meta name="description" content="Desarrollo y Diseño web. ¿Necesitas una web para tu negocio? estás en el lugar indicado." />
-        <meta name="keywords" content="pagina web, sitio web, diseño web, desarrollo web, programador web, programador, programacion web, hacer pagina web, tener sitio web" />
+        <title>Diseño web: ¿qué es una página web? | Martín Padrón</title>
+        <meta
+          name="description"
+          content="Desarrollo de sitios web a tu medida y diseñadas en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
+        />
+        <meta
+          name="keywords"
+          content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
+        />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           property="og:image"
@@ -40,13 +47,67 @@ const DesarrolloWeb = () => {
         contacto_nav="#contacto"
       />
 
-      <NewHero title="Desarrollo y Diseño web." />
-
       <C1
         foto={illus}
-        title="La solución definitiva"
-        content="Démosle a tú negocio su propio sitio web y consigue más clientes/visitas, gana autoridad frente a tu competencia, automatiza procesos y descubre todas las ventajas al existir dentro de la web."
+        title="Diseño y desarrollo de páginas y sitios webs, todo lo que tu negocio necesita para adquirir conversiones"
+        content="Con tu propio sitio web podrás conseguir más visitas y convertirlos en potenciales clientes más fácilmente, además de ganar autoridad frente a tu competencia, automatizar procesos, ahorrar tiempo y mucho más."
       />
+
+      <Contenido title="¿Qué es una página web?">
+        <p>
+          Se conoce como página Web, página electrónica o página digital a un
+          documento digital de carácter multimediático (es decir, capaz de
+          incluir audio, video, texto y sus combinaciones), adaptado a los
+          estándares de la World Wide Web (WWW) y a la que se puede acceder a
+          través de un navegador Web y una conexión activa a internet, se trata
+          del formato básico de contenidos en la red.
+        </p>
+        <p>
+          Las páginas Web se encuentran programadas en un formato HTML o XHTML,
+          y se caracterizan por su relación entre unas y otras a través de
+          <strong> hipervínculos:</strong> enlaces hacia contenidos diversos que
+          permiten una lectura compleja, simultánea y diversa, muy distinta a la
+          que podemos hallar en los libros y revistas.
+        </p>
+      </Contenido>
+
+      <Contenido title="Diferencias entre página web, sitio web y aplicación web">
+        <p>
+          Una <strong> página web </strong> es cada una de las pantallas que
+          vemos dentro de un Sitio Web, por ejemplo: la página de inicio,
+          contacto, servicios, acerca de, preguntas frecuentes, etc. Estas
+          páginas están construidas con HTML, CSS y pueden incluir JavaScript.
+        </p>
+        <p>
+          Podemos definir a un <strong> sitio web </strong> como un conjunto de
+          páginas dentro de un dominio. Por ejemplo, actualmente estás ubicado
+          en una página de mi sitio web, que está conformado por páginas que
+          describen los diferentes servicios que ofrezco. El objetivo de esto no
+          es hacer negocio sino que es parte de una estrategia de marketing para
+          ofertar productos o servicios al espectador.
+        </p>
+        <p>
+          Puedes pensar esto como <strong> un libro </strong>, un libro está
+          compuesto por muchas páginas: cada página individual ofrece
+          información diferente a las demás páginas pero todo dentro de un mismo
+          tema. Un sitio web es exactamente igual.
+        </p>
+        <p>
+          Finalmente, una <strong> aplicación web </strong> es un programa
+          desarrollado con tecnologías web. Pero lo que lo diferencia un sitio
+          de una Aplicación Web es que no solo sirve para transmitir información
+          al espectador, sino que la aplicación resuelve una necesidad o
+          problema para los usuarios y cuenta con múltiples funcionalidades por
+          ejemplo:
+        </p>
+        <ul>
+          <li>Ofertar productos y permitirle al cliente comprarlos</li>
+          <li>Ofrecer atención al cliente</li>
+          <li>Mirar videos e interacciones multimedia</li>
+          <li>Convertir archvios a otros formatos</li>
+          <li>¡Y mucho más! el límite está en la imaginación.</li>
+        </ul>
+      </Contenido>
 
       <C2
         icon1={<BsCodeSlash className="icon" />}
@@ -70,9 +131,17 @@ const DesarrolloWeb = () => {
 
       <GridWeb />
 
-      <Contacto title="¿Listo para despegar?" content="Rellena el formulario o escríbeme al Whatsapp para cotizaciones y más información, te atenderé a la brevedad" />
+      <Contacto
+        title="¿Listo para despegar?"
+        content="Rellena el formulario o escríbeme al Whatsapp para cotizaciones y más información, te atenderé a la brevedad"
+      />
 
-      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="#contacto" />
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/Portfolio"
+        contacto="#contacto"
+      />
     </>
   );
 };
