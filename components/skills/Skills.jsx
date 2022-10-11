@@ -20,7 +20,7 @@ import { SiVercel } from "react-icons/si";
 const Skills = () => {
   return (
     <section className={style.skcontainer}>
-      <h2 id="experiencia">Calidad garantizada</h2>
+      <h3 id="experiencia">Calidad garantizada</h3>
 
       <div className={stylex.wave_animation}>
         <div className={stylex.wave}></div>

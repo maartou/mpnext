@@ -25,7 +25,7 @@ const DesarrolloWeb = () => {
   return (
     <>
       <Head>
-        <title>Diseño web: ¿qué es una página web? | Martín Padrón</title>
+        <title>Diseño web: ¿qué es una página web? y razones del porqué deberías tener una | Martín Padrón</title>
         <meta
           name="description"
           content="Desarrollo de sitios web a tu medida y diseñadas en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
@@ -175,15 +175,10 @@ const DesarrolloWeb = () => {
         content4="¿Quieres que las personas que visiten tu web también visiten tus redes sociales? ¡Es posible!"
       />
 
-      <Title2
-        small="Si tu negocio no está en la web, no existe..."
-        title="Llegó el momento de hacer crecer tu marca"
-      />
-
-      <GridWeb />
+      <GridWeb title="Ejemplos de diseño web" />
 
       <Contacto
-        title="¿Listo para despegar?"
+        title="empecemos"
         content="Rellena el formulario o escríbeme al Whatsapp para cotizaciones y más información, te atenderé a la brevedad"
       />
 

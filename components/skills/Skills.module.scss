@@ -6,7 +6,7 @@ $transition: all 400ms ease;
 
 .skcontainer{
 
-  h2 {
+  h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
@@ -100,7 +100,7 @@ $transition: all 400ms ease;
 // Tablets
 @media screen and (max-width: 768px) {
   .skcontainer {
-    h2 {
+    h3 {
       font-size: 3rem;
     }
   }

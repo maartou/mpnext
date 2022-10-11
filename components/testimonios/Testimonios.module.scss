@@ -1,21 +1,15 @@
+@use '/styles/variables.module.scss';
+
 $negro: #000000;
 $primary: #2b2bff;
 $blanco: #ffffff;
 
-@mixin h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  text-align: center;
-}
 
 $transition: all 400ms ease;
 
 .testi_section {
   h2 {
-    @include h2();
-    margin-bottom: 3rem;
+    @include variables.title;
   }
 }
 

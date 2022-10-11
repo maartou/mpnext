@@ -38,7 +38,7 @@ const Contacto = ({title, content}) => {
   return (
     <section className={style.section}>
       <div className={style.title}>
-        <h2 id="contacto">{title}</h2>
+        <h3 id="contacto">{title}</h3>
         <p>
           {content}
         </p>

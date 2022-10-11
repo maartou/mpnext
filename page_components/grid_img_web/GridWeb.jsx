@@ -8,8 +8,12 @@ import jh from '../../public/img/portfolio/jh.png'
 import venecia from '../../public/img/portfolio/venecia.jpg'
 import jordans from '../../public/img/portfolio/Jordans.png'
 
-const GridWeb = () => {
+const GridWeb = ({title}) => {
   return (
+    <>
+
+    <h2 className={style.title}>{title}</h2>
+
     <div className={style.grid}>
         <div className={style.img_container}>
           <Image src={gym} alt="Gym landing page" placeholder="blur" />
@@ -35,6 +39,8 @@ const GridWeb = () => {
           <Image src={jordans} alt="Jordans landing page" placeholder="blur" />
         </div>
     </div>
+    
+    </>
   )
 }
 

@@ -1,3 +1,5 @@
+@use '/styles/variables.module.scss';
+
 $negro: #000000;
 $primary: #2b2bff;
 $blanco: #ffffff;
@@ -30,8 +32,7 @@ $transition: all 400ms ease;
 
 .psection {
   h2 {
-    @include h2();
-    text-align: center;
+    @include variables.title;
   }
 }
 
