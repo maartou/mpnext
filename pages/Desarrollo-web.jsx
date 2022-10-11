@@ -54,7 +54,7 @@ const DesarrolloWeb = () => {
         content="Con tu propio sitio web podrás conseguir más visitas y convertirlos en potenciales clientes más fácilmente, además de ganar autoridad frente a tu competencia, automatizar procesos, ahorrar tiempo y mucho más."
       />
 
-      <section>
+      <section className={style.content_section}>
         <Contenido title="¿Qué es una página web?">
           <p>
             Se conoce como página Web, página electrónica o página digital a un
@@ -160,6 +160,7 @@ const DesarrolloWeb = () => {
       </section>
 
       <C2
+      title="¿Qué tendrá tu página web?"
         icon1={<BsCodeSlash className="icon" />}
         servi1="Diseño a medida"
         content1="Con óptima experiencia de navegación garantizada."
