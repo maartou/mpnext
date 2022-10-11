@@ -6,6 +6,7 @@ const C1 = ({ foto, title, content }) => {
   return (
     <section className={style.section}>
       <div className={style.container}>
+        
         {/* Illustracion  */}
         <div className={style.img_container}>
           <Image src={foto} alt="" />
