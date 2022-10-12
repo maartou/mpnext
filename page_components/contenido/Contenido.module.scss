@@ -65,11 +65,21 @@ $transition: all 400ms ease;
     li {
         margin-bottom: 2em;
     }
+
+    strong {
+        font-weight: 700;
+        color: #3030d7;
+    }
 }
 
 .diferencias_list {
     li {
         margin-bottom: 2em;
+    }
+
+    strong {
+        font-weight: 700;
+        color: #3030d7;
     }
 }
 
