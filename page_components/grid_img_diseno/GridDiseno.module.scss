@@ -1,3 +1,9 @@
+@use '/styles/variables.module.scss';
+
+.title {
+    @include variables.title;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr;

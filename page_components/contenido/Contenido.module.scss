@@ -6,10 +6,6 @@ $blanco: #ffffff;
 $transition: all 400ms ease;
 
 
-.content_section {
-    margin-bottom: 0;
-}
-
 .article {
     margin-bottom: 5rem;
 }
@@ -75,6 +71,10 @@ $transition: all 400ms ease;
 
 @media screen and (min-width: 1024px) {
     .article {
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
+    }
+
+    .container {
+        width: 60%;
     }
 }
