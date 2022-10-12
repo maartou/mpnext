@@ -34,7 +34,7 @@ const Diseno_grafico = () => {
         />
         <meta
           name="keywords"
-          content="diseño grafico, que es diseño grafico, diseño grafico venezuela, diseño grafico caracas, para que sirve diseño grafico, que hace diseño grafico, crear un logo"
+          content="diseño grafico, que es diseño grafico, diseño grafico venezuela, diseño grafico caracas, para que sirve diseño grafico, que hace diseño grafico, crear un logo, branding para marcas, creacion de logos profesionales"
         />
         <meta
           property="og:image"
@@ -51,7 +51,7 @@ const Diseno_grafico = () => {
 
       <C1
         foto={illus}
-        title="Diseño gráfico, branding y creación de logos profesionales."
+        title="Diseño gráfico, branding y creación de logos profesionales"
         content="Desde el logo de tu empresa hasta revistas, folletos, vallas, banners y toda la imagen que involucre una campaña de mercadeo la hacemos realidad para ti. Una buena imagen es fundamental en cualquier empresa."
       />
 

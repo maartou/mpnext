@@ -36,7 +36,7 @@ const Marketing = () => {
         />
         <meta
           name="keywords"
-          content="marketing, marketing digital, instagram, facebook, tiktok, community manager, social media"
+          content="marketing, marketing digital, gestion de redes sociales en venezuela, community manager, social media, martin padron, redes sociales estrategias"
         />
         <meta
           property="og:image"

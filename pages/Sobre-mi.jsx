@@ -17,7 +17,7 @@ const SobreMi = () => {
   return (
     <>
       <Head>
-        <title> Sobre mi - Martin Padrón </title>
+        <title> Conóceme un poco más | Martín Padrón </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
@@ -98,7 +98,12 @@ const SobreMi = () => {
                 <AiFillLinkedin className={style.icon} />
               </a>
             </div>
-            <a href="/cv.pdf" target="_blank" download="Martin Padron CV" className={style.cv}>
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              download="Martin Padron CV"
+              className={style.cv}
+            >
               {" "}
               Descargar CV{" "}
             </a>
