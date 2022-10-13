@@ -79,7 +79,7 @@ const SEO = () => {
         <Contenido title="¿Por qué es importante el SEO?">
           <p>
             La razón más importante por la que es necesario el SEO es porque
-            <strong>hace más útil tu página web tanto para los usuarios como para los
+            <strong> hace más útil tu página web tanto para los usuarios como para los
             motores de búsqueda.</strong> Aunque estos aún no pueden ver una página web
             como lo hace un humano. El SEO es necesario para ayudar a los
             motores de búsqueda a entender sobre qué trata cada página y si es o

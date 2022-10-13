@@ -114,7 +114,7 @@ const DesarrolloWeb = () => {
         </Contenido>
 
         <Contenido title="Razones del porqué deberías tener una página web">
-          <dl className={style.list}>
+          <dl className={style.list} id="razones">
             <dt>Clientes siempre informados</dt>
             <dd>
               En su forma más básica, un sitio web es cómo un folleto o cátalogo

@@ -37,7 +37,7 @@ const Hero = () => {
             <Link href="#contacto"> Contáctame </Link>
           </div>
           <div className={style.btn_secondary}>
-            <Link href="/Desarrollo-web"> Entérate cómo </Link>
+            <Link href="/Desarrollo-web#razones"> Entérate cómo </Link>
           </div>
         </div>
       </div>
