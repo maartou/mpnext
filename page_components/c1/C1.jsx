@@ -9,7 +9,7 @@ const C1 = ({ foto, title, content }) => {
         
         {/* Illustracion  */}
         <div className={style.img_container}>
-          <Image src={foto} alt="" />
+          <Image src={foto} alt="Martin Padron" priority />
         </div>
 
         {/* Contenido  */}

@@ -22,8 +22,7 @@ const SEO = () => {
     <>
       <Head>
         <title>
-          SEO Venezuela: consigue las primeras posiciones en Google | Martín
-          Padrón
+          SEO Venezuela: consigue las primeras posiciones en Google
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta

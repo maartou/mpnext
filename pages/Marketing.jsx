@@ -26,8 +26,7 @@ const Marketing = () => {
     <>
       <Head>
         <title>
-          Marketing digital y gestión de redes sociales en Venezuela | Martín
-          Padrón
+          Marketing digital y gestión de redes sociales en Venezuela
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
@@ -53,7 +52,7 @@ const Marketing = () => {
 
       <C1
         foto={illus}
-        title="Marketing digital y gestión de redes sociales, estrategias adaptadas a las neceidades de tu marca "
+        title="Marketing digital y gestión de redes sociales, estrategias adaptadas a las necesidades de tu marca "
         content="Conoceremos a tu audiencia y estableceremos objetivos claros para crear contenido relevante, que entretenga y que sea frecuente. Además de medir los resultados de todas las redes sociales para fidelizar tus usuarios y generar conversiones."
       />
 

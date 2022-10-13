@@ -25,7 +25,7 @@ const Diseno_grafico = () => {
     <>
       <Head>
         <title>
-          Diseño gráfico, branding y creación de logos profesionales | Martín Padrón
+          Diseño gráfico y creación de logos profesionales
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta

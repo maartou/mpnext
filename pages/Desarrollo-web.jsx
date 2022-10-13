@@ -13,8 +13,6 @@ import { BsCodeSlash } from "react-icons/bs";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaServer } from "react-icons/fa";
 
-import Title2 from "../page_components/title_2/Title2";
-
 import GridWeb from "../page_components/grid_img_web/GridWeb";
 
 import Contacto from "../components/contacto/Contacto";
@@ -25,7 +23,7 @@ const DesarrolloWeb = () => {
   return (
     <>
       <Head>
-        <title>Diseño web: ¿qué es una página web? y razones del porqué deberías tener una | Martín Padrón</title>
+        <title>Diseño web: ¿qué es una página web? y razones del porqué deberías tener una</title>
         <meta
           name="description"
           content="Desarrollo de sitios web a tu medida y diseñadas en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
