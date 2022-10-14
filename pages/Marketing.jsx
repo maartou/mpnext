@@ -107,7 +107,7 @@ const Marketing = () => {
           </ul>
         </Contenido>
 
-        <Contenido title="diferencias entre marketing digital y diseño gráfico">
+        <Contenido title="Diferencias entre marketing digital y diseño gráfico">
           <p>
             En vista de la importancia que tienen ambas en la difusión de la
             información y dar a conocer un producto o servicio, es indispensable
