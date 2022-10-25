@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import style from './GridWeb.module.scss';
 
 import gym from '../../public/img/portfolio/Gym.png'
