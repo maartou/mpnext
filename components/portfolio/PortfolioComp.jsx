@@ -1,5 +1,5 @@
 import style from "./pc.module.scss";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import risup from "../../public/img/portfolio/risup.png";
 import modu from "../../public/img/portfolio/modu.png";
 import manu from "../../public/img/portfolio/manu.jpg";

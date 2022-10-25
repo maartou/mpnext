@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import logo from "../../public/img/mp_logo.svg";
 import Link from "next/link";
 import style from "./Header.module.scss";

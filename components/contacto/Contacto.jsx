@@ -1,6 +1,6 @@
 import style from "./Contacto.module.scss";
 
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import illus from "../../public/img/illustrations/end_illustration.svg";
 
 import { AiOutlineInstagram } from "react-icons/ai";

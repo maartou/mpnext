@@ -1,5 +1,5 @@
 import style from "./Testimonios.module.scss";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import AVATAR1 from "../../public/img/personas/novia.jpg";
 import AVATAR2 from "../../public/img/personas/Papa.jpg";
 import AVATAR3 from "../../public/img/personas/omar.jpg";

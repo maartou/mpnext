@@ -1,5 +1,5 @@
 import style from './Footer.module.scss';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 import logo from '../../public/img/mp_logo.svg'
