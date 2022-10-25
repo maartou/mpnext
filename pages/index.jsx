@@ -26,7 +26,7 @@ export default function Home() {
       </Script>
 
       <Head>
-        <title>Martin Padron | Desarrollo y diseño de páginas web en Venezuela</title>
+        <title>Martin Padron: Desarrollo y diseño de páginas web en Venezuela</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"

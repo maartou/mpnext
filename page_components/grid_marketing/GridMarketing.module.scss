@@ -1,6 +1,9 @@
+@use '/styles/variables.module.scss';
 $primary: #2b2bff;
 
-
+.title {
+    @include variables.title;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr;
