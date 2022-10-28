@@ -3,7 +3,6 @@ import Image from "next/legacy/image";
 import risup from "../../public/img/portfolio/risup.png";
 import modu from "../../public/img/portfolio/modu.png";
 import manu from "../../public/img/portfolio/manu.jpg";
-import venecia from "../../public/img/portfolio/venecia.jpg";
 import sized from "../../public/img/portfolio/sized.jpg";
 import Link from "next/link";
 
@@ -14,7 +13,37 @@ const PortfolioComp = () => {
 
       <div className={style.container}>
         <article className={style.p_item}>
-          <Image src={risup} alt="Right-sup tecnical services" placeholder="blur" />
+          <Image src={sized} alt="Sized franelas" placeholder="blur" />
+          <h3>SIZED clothing</h3>
+          <a
+            className={style.btn}
+            href="https://www.sizedstore.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visitar sitio
+          </a>
+        </article>
+
+        <article className={style.p_item}>
+          <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
+          <h3>Manuela Serrano</h3>
+          <a
+            className={style.btn}
+            href="https://www.manuelaserranoc.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visitar sitio
+          </a>
+        </article>
+
+        <article className={style.p_item}>
+          <Image
+            src={risup}
+            alt="Right-sup tecnical services"
+            placeholder="blur"
+          />
           <h3>Right-sup servicios técnicos</h3>
           <a
             className={style.btn}
@@ -38,36 +67,6 @@ const PortfolioComp = () => {
             Visitar sitio
           </a>
         </article>
-
-        <article className={style.p_item}>
-          <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
-          <h3>Manuela Serrano</h3>
-          <a
-            className={style.btn}
-            href="https://www.manuelaserranoc.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
-
-        <article className={style.p_item}>
-          <Image src={sized} alt="Sized franelas" placeholder="blur" />
-          <h3>SIZED clothing</h3>
-          <a
-            className={style.btn}
-            href="https://www.sizedstore.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
-
-
-
-
       </div>
 
       <div className={style.link}>
