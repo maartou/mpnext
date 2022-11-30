@@ -1,46 +1,25 @@
-import style from "./Hero.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+import liquid from "../../public/img/liquid.jpg";
+import collage from '../../public/img/collage.jpg'
 
 const Hero = () => {
   return (
-    <section className={style.section}>
-
-      {/* Circulos  */}
-      <div className={`${style.circle} ${style.c1}`}>
-        <div className={style.circle_sm}></div>
-      </div>
-      <div className={`${style.circle} ${style.c2}`}>
-        <div className={style.circle_sm}></div>
-      </div>
-      <div className={`${style.circle} ${style.c3}`}>
-        <div className={style.circle_sm}></div>
-      </div>
-      <div className={`${style.circle} ${style.c4}`}>
-        <div className={style.circle_sm}></div>
-      </div>
-
-      {/* Contenido  */}
-      <div className={style.content}>
-        <h1>
-          Lleva tu negocio al siguiente nivel <br />
-          <span>
-            con el desarrollo y diseño de tu propia y potente página web.
-          </span>
+    <section>
+      {/* Foto principal y H1  */}
+      <div className="relative h-[35rem]">
+        <h1 className="absolute top-[50%] left-[1.5rem]  -translate-y-[50%] uppercase font-bold text-5xl leading-[3rem] ">
+          Diseño y Desarrollo web
         </h1>
-        <h2>
-          Soy Martin Padron; desarrollador frontend, diseñador ui/ux y estratega
-          en SEO y marketing digital. Estoy aquí para brindarle a tú negocio
-          todas las ventajas que dispone el tener un sitio web. ¿Comenzamos?
-        </h2>
-        <div className={style.btn_container}>
-          <div className={style.btn_primary}>
-            <Link href="#contacto"> Contáctame </Link>
-          </div>
-          <div className={style.btn_secondary}>
-            <Link href="/Desarrollo-web#razones"> Entérate cómo </Link>
-          </div>
-        </div>
+        <Image src={liquid} alt="" className="w-full h-full object-cover" />
       </div>
+
+      <div className="relative h-[18rem]">
+        <p className="absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] uppercase font-light z-10 text-white">Portfolio</p>
+        <Image src={collage} alt='' className="brightness-[0.3] w-full h-full object-cover" />
+      </div>
+
+
     </section>
   );
 };
