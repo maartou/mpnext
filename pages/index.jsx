@@ -61,7 +61,7 @@ export default function Home() {
         <Header />
       </div>
 
-      <main className="flex flex-col gap-10">
+      <main className="flex flex-col gap-20">
         <Hero />
         <Services />
         <Skills />

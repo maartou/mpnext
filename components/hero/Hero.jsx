@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import liquidh from "../../public/img/liquid_hero.jpg";
 import liquid from "../../public/img/liquid.jpg";
+import liquidw from "../../public/img/liquid_w.jpg";
 import collage from "../../public/img/collage.jpg";
 import logo from "../../public/img/mp_logo.svg";
 
@@ -80,7 +82,7 @@ const Hero = () => {
             Diseño y Desarrollo web
           </h1>
           <Image
-            src={liquid}
+            src={liquidh}
             alt=""
             fill
             className="object-cover -z-10 brightness-[0.4]"
@@ -105,20 +107,22 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className="bg-black text-white flex justify-center items-center py-20 lg:order-1">
+          <div className="relative text-white flex justify-center items-center py-20 lg:order-1">
             <Link href="/#experiencia">
-              <button className="uppercase tracking-widest font-light border py-2 px-8  text-xl hover:bg-white hover:text-black transition-all">
+              <button className="uppercase tracking-widest font-light border py-2 w-[10rem]  text-xl z-10 lg:w-[12rem] lg:py-4 hover:bg-white hover:text-black transition-all">
                 Skills
               </button>
             </Link>
+            <Image src={liquid} alt="" fill className="object-cover -z-10 brightness-[0.2] saturate-0" />
           </div>
 
-          <div className="bg-white text-black flex justify-center items-center py-20 lg:order-3">
+          <div className="relative text-black flex justify-center items-center py-20 lg:order-3">
             <Link href="/#contacto">
-              <button className="uppercase tracking-widest font-light border border-black py-2 px-8  text-xl hover:bg-black hover:text-white transition-all">
+              <button className="uppercase tracking-widest font-light border border-black py-2 w-[10rem] text-xl z-10 lg:w-[12rem] lg:py-4 hover:bg-black hover:text-white transition-all">
                 Contacto
               </button>
             </Link>
+            <Image src={liquidw} alt="" fill className="object-cover -z-10" />
           </div>
         </div>
       </div>

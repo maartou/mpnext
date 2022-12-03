@@ -16,6 +16,7 @@ import { TiSocialAtCircular } from "react-icons/ti";
 const Services = () => {
   return (
     <section id="servicios" className="w-11/12 mx-auto">
+      <h2 className="text-center mb-7 tracking-[.5em] uppercase font-light text-xl">Servicios</h2>
       <Swiper
         spaceBetween={20}
         slidesPerView={1.2}
