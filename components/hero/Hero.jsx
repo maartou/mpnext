@@ -92,19 +92,16 @@ const Hero = () => {
         {/* Portfolio y botones  */}
         <div className="grid grid-cols-2 lg:grid-cols-4 overflow-hidden">
           <div className="col-span-2 lg:order-2">
+
             <Link href="/portfolio">
-              <div className="relative h-[18rem] lg:h-full flex items-center justify-center">
-                <p className=" uppercase font-light z-10 text-white tracking-[.8em] text-2xl transition-all hover:scale-110">
+              <div className=" bg-black h-[18rem] relative lg:h-full flex items-center justify-center group transition-all hover:bg-white">
+                <p className="uppercase font-light text-white tracking-[.8em] text-2xl border border-white py-10 px-5 group-hover:text-black group-hover:border-black">
                   Portfolio
                 </p>
-                <Image
-                  src={collage}
-                  alt=""
-                  className="brightness-[0.3] object-cover -z-10"
-                  fill
-                />
+                <div className="absolute top-14 right-4 w-60 h-14 border border-white group-hover:border-black 2xl:top-[9rem] 2xl:right-[5rem]"></div>
               </div>
             </Link>
+
           </div>
 
           <div className="relative text-white flex justify-center items-center py-20 lg:order-1">
@@ -113,7 +110,12 @@ const Hero = () => {
                 Skills
               </button>
             </Link>
-            <Image src={liquid} alt="" fill className="object-cover -z-10 brightness-[0.2] saturate-0" />
+            <Image
+              src={liquid}
+              alt=""
+              fill
+              className="object-cover -z-10 brightness-[0.2] saturate-0"
+            />
           </div>
 
           <div className="relative text-black flex justify-center items-center py-20 lg:order-3">

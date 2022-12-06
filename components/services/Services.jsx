@@ -16,7 +16,9 @@ import { TiSocialAtCircular } from "react-icons/ti";
 const Services = () => {
   return (
     <section id="servicios" className="w-11/12 mx-auto">
-      <h2 className="text-center mb-7 tracking-[.5em] uppercase font-light text-xl">Servicios</h2>
+      <h2 className="text-center mb-7 tracking-[.5em] uppercase font-light text-xl">
+        Servicios
+      </h2>
       <Swiper
         spaceBetween={20}
         slidesPerView={1.2}
@@ -26,7 +28,7 @@ const Services = () => {
           768: {
             slidesPerView: 2,
           },
-          
+
           1024: {
             slidesPerView: 4,
           },
@@ -40,6 +42,7 @@ const Services = () => {
         objetivos de tu empresa. Obtén más visitas/clientes, vende en línea,
         obtén cotizaciones en tu sitio y destaca entre tus competidores con tu
         imponente sitio web."
+            link="/desarrollo-web"
           />
         </SwiperSlide>
 
@@ -48,6 +51,7 @@ const Services = () => {
             icon={<FaGoogle />}
             title="SEO"
             content="No solo se trata de hacer tu web y ya está, no. Hacer tu web es el inicio de todo, con un buen plan de SEO (Search Engine Optimization) posicionaré tu web entre los primeros resultados de Google, démosle popularidad a tu marca y despega ya."
+            link="/seo"
           />
         </SwiperSlide>
 
@@ -56,6 +60,7 @@ const Services = () => {
             icon={<FaPaintBrush />}
             title="Diseño gráfico"
             content="Desde papelería comercial hasta carteles de 10 metros. ¡Me ocupo de todo tipo de diseños a medida! Siempre siguiendo tu identidad corporativa y nutriendo tu sitio web o campañas con los artes más exquisitos del universo digital."
+            link="/diseno-grafico"
           />
         </SwiperSlide>
 
@@ -64,6 +69,7 @@ const Services = () => {
             icon={<TiSocialAtCircular />}
             title="Marketing digital"
             content="Desarrollo campañas estratégicas que generan resultados medibles. Potencia tus canales digitales: define tus ejes de comunicación para lograr resultados. Tus ventas crecen cuando llegas al público adecuado. Atrae, engancha a tu público y cierra el trato."
+            link="/marketing"
           />
         </SwiperSlide>
       </Swiper>
