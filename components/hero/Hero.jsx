@@ -3,7 +3,6 @@ import Image from "next/image";
 import liquidh from "../../public/img/liquid_hero.jpg";
 import liquid from "../../public/img/liquid.jpg";
 import liquidw from "../../public/img/liquid_w.jpg";
-import collage from "../../public/img/collage.jpg";
 import logo from "../../public/img/mp_logo.svg";
 
 import { AiFillGithub } from "react-icons/ai";

@@ -14,7 +14,7 @@ import { SiTypescript } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section id="skills" className="w-11/12 mx-auto">
+    <section id="experiencia" className="w-11/12 mx-auto">
       <h2 className="text-center mb-5 tracking-[.5em] uppercase font-light text-xl">
         Skills
       </h2>

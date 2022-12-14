@@ -16,3 +16,7 @@ body {
   display: none;
 }
 
+.titulos {
+  @apply text-center mb-5 tracking-[.5em] uppercase font-light text-xl
+}
+
