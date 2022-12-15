@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import manu from "../../public/img/portfolio/manu.jpg";
+import enviosurbana from "../../public/img/portfolio/enviosurbana.png"
 import sized from "../../public/img/portfolio/sized.jpg";
 import taxes from "../../public/img/portfolio/taxes.png";
 import upay from "../../public/img/portfolio/urbanapay.png";
+import risup from "../../public/img/portfolio/risup.png";
 import PortfolioItem from "./PortfolioItem";
 
 const PortfolioComp = () => {
@@ -40,6 +42,26 @@ const PortfolioComp = () => {
           titulo="Urbana pay"
           enlace="https://www.urbanapay.com/"
         />
+
+        <div className="hidden lg:block">
+          <PortfolioItem
+            img={risup}
+            alt="right sup"
+            titulo="right-sup technicall"
+            enlace="https://risuptec.com/"
+          />
+        </div>
+
+        <div className="hidden lg:block">
+          <PortfolioItem
+            img={enviosurbana}
+            alt="envios urbana"
+            titulo="Envios Urbana"
+            enlace="https://www.enviosurbana.com/"
+          />
+        </div>
+
+
       </div>
 
       <button className="flex items-center gap-2 bg-primary-100 py-3 px-4 rounded-lg mt-5 border border-transparent transition-colors hover:border-white ml-auto lg:text-xl">

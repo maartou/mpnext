@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const PortfolioItem = ({img, alt, titulo, enlace}) => {
   return (
-    <article className='border border-white'>
+    <article className='border border-white lg:h-[20rem] 2xl:h-[26rem]'>
         {/* Contenedor de las fotos  */}
         <div>
             <Image src={img} alt={alt} />

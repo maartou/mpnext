@@ -67,18 +67,8 @@ export default function Home() {
         <Skills />
         <PortfolioComp />
         <Testimonios />
-        <Contacto
-          title="Hablemos"
-          content="Ponte en contácto conmigo; cúentame qué necesitas y los detalles del servicio que requieres. ¡Trabajemos juntos! y consigamos cumplir todos tus objetivos, te espero para comenzar :)"
-        />
+        <Contacto />
       </main>
-
-      <Footer
-        servicios="#servicios"
-        experiencia="#experiencia"
-        portfolio="#portfolio"
-        contacto="#contacto"
-      />
     </>
   );
 }
