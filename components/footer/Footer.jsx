@@ -1,31 +1,39 @@
-import style from './Footer.module.scss';
 import Image from "next/legacy/image";
-import Link from 'next/link';
+import Link from "next/link";
+import logo from "../../public/img/mp_logo.svg";
 
-import logo from '../../public/img/mp_logo.svg'
-
-const Footer = ({servicios, experiencia, portfolio, contacto}) => {
+const Footer = ({ servicios, experiencia, portfolio, contacto }) => {
   return (
-    <footer className={style.footer}>
+    <footer className="mt-20 bg-primary-100 py-10">
+      <div className="flex flex-col gap-12 items-center">
+        <div className="w-[8rem]">
+          <Image src={logo} alt="martin padron" />
+        </div>
 
-        <div className={style.logo}>
-        <Image src={logo} alt="Martin Padron Logo" />
-      </div>
-      
-      <div className={style.links}>
-        <Link href="/">Home</Link>
-        <Link href={servicios}>Servicios</Link>
-        <Link href={experiencia}>Experiencia</Link>
-        <Link href={portfolio}>Portfolio</Link>
-        <Link href={contacto}>Contacto</Link>
-      </div>
+        <div className="flex flex-col items-center gap-5 md:flex-row text-xl">
+          <Link href="/">
+            <div>Volver al inicio</div>
+          </Link>
+          <Link href={servicios}>
+            <div>Servicios</div>
+          </Link>
+          <Link href={experiencia}>
+            <div>Experiencia</div>
+          </Link>
+          <Link href={portfolio}>
+            <div>Portfolio</div>
+          </Link>
+          <Link href={contacto}>
+            <div>Contacto</div>
+          </Link>
+        </div>
 
-      <div className={style.copy}>
-        <small> &copy; Martin Padrón 2022 todos los derechos reservados. </small>
+        <div>
+          <p>&copy; Martín Padrón 2022 todos los derechos reservados.</p>
+        </div>
       </div>
-
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
