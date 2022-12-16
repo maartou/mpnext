@@ -19,7 +19,10 @@ const Contacto = () => {
 
         {/* mockup  */}
         <div className="overflow-hidden">
-          <p>ostia</p>
+          <p>ostiale</p>
+          <video  controls autoPlay muted playsInline width={400}>
+            <source src="../../public/liquid.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </section>
