@@ -27,30 +27,28 @@ const Formulario = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <div>
-        <h4>Puedes colocar tu nombre acá</h4>
-        <input className="text-black" type="text" name="name" placeholder="Nombre" required />
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10 max-w-lg lg:max-w-none mx-auto lg:w-full">
+      <div className="flex flex-col">
+        <label htmlFor="name" className="text-2xl">Tu nombre</label>
+        <input className="text-neutral-400 bg-black border-b pt-3 focus:outline-none" id="name" type="text" name="name" required />
       </div>
 
-      <div>
-        <h4>Tu correo electrónico por aquí</h4>
-        <input className="text-black" type="email" name="email" placeholder="Email" required />
+      <div className="flex flex-col">
+        <label htmlFor="email" className="text-2xl">Correo electrónico</label>
+        <input className="text-neutral-400 bg-black border-b pt-3 focus:outline-none" id="email" type="email" name="email" required />
       </div>
 
-      <div>
-        <h4>
-          El mensaje que deseés aquí, te responderé en la mayor brevedad posible
-        </h4>
+      <div className="flex flex-col">
+        <label htmlFor="msg" className="text-2xl">Detalles del servicio que requieres</label>
         <textarea
-        className="text-cyan-500"
+        id="msg"
+        className="bg-black text-neutral-400 mt-3 p-2 border border-white focus:outline-none"
           name="mensaje"
           rows="7"
-          placeholder="Cuéntame qué necesitas..."
           required
         ></textarea>
 
-        <button type="submit">
+        <button type="submit" className="bg-primary-100 mt-3 py-2">
           Enviar
         </button>
       </div>
