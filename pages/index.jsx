@@ -57,7 +57,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className="lg:hidden">
+      <div className="sticky left-0 top-0 z-[20] md:hidden">
         <Header />
       </div>
 
