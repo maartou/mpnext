@@ -48,7 +48,7 @@ const Formulario = () => {
           required
         ></textarea>
 
-        <button type="submit" className="bg-primary-100 mt-3 py-2">
+        <button type="submit" className="bg-primary-100 mt-3 py-3 uppercase">
           Enviar
         </button>
       </div>

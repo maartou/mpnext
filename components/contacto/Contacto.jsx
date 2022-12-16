@@ -9,7 +9,7 @@ const Contacto = () => {
   return (
     <section id="contacto">
       {/* Grid principal */}
-      <div className="grid gap-7 grid-cols-1 lg:grid-cols-2 lg:h-[90vh] ">
+      <div className="grid gap-7 grid-cols-1 lg:grid-cols-2 lg:h-[100vh] ">
         {/* foto  */}
         <div className="relative w-full h-[40rem] lg:h-full flex items-center justify-center">
           <Image src={fondo} alt="" fill className="-z-10 object-cover object-center brightness-50 saturate-0" />
