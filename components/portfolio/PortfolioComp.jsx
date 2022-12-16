@@ -1,77 +1,75 @@
-import style from "./pc.module.scss";
-import Image from "next/legacy/image";
-import risup from "../../public/img/portfolio/risup.png";
-import modu from "../../public/img/portfolio/modu.png";
-import manu from "../../public/img/portfolio/manu.jpg";
-import sized from "../../public/img/portfolio/sized.jpg";
 import Link from "next/link";
+import { IoIosArrowForward } from "react-icons/io";
+import manu from "../../public/img/portfolio/manu.jpg";
+import enviosurbana from "../../public/img/portfolio/enviosurbana.png"
+import sized from "../../public/img/portfolio/sized.jpg";
+import taxes from "../../public/img/portfolio/taxes.png";
+import upay from "../../public/img/portfolio/urbanapay.png";
+import risup from "../../public/img/portfolio/risup.png";
+import PortfolioItem from "./PortfolioItem";
 
 const PortfolioComp = () => {
   return (
-    <section className={style.psection}>
-      <h2 id="portfolio">Trabajos recientes</h2>
+    <section className="w-11/12 mx-auto">
+      <h2 className="titulos">Trabajos recientes</h2>
 
-      <div className={style.container}>
-        <article className={style.p_item}>
-          <Image src={sized} alt="Sized franelas" placeholder="blur" />
-          <h3>SIZED clothing</h3>
-          <a
-            className={style.btn}
-            href="https://www.sizedstore.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
+      {/* Grid de los trabajos  */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <PortfolioItem
+          img={taxes}
+          alt="taxes jmj"
+          titulo="Taxes jmj"
+          enlace="https://www.taxesjmj.com/"
+        />
 
-        <article className={style.p_item}>
-          <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
-          <h3>Manuela Serrano</h3>
-          <a
-            className={style.btn}
-            href="https://www.manuelaserranoc.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
+        <PortfolioItem
+          img={sized}
+          alt="sized store"
+          titulo="Sized store"
+          enlace="https://www.sizedstore.com/"
+        />
 
-        <article className={style.p_item}>
-          <Image
-            src={risup}
-            alt="Right-sup tecnical services"
-            placeholder="blur"
+        <PortfolioItem
+          img={manu}
+          alt="manuela serrano"
+          titulo="Manuela Serrano"
+          enlace="https://www.manuelaserranoc.com/"
+        />
+
+        <PortfolioItem
+          img={upay}
+          alt="urbana pay"
+          titulo="Urbana pay"
+          enlace="https://www.urbanapay.com/"
+        />
+
+        <div className="hidden lg:block">
+          <PortfolioItem
+            img={risup}
+            alt="right sup"
+            titulo="right-sup technicall"
+            enlace="https://risuptec.com/"
           />
-          <h3>Right-sup servicios técnicos</h3>
-          <a
-            className={style.btn}
-            href="https://risuptec.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
+        </div>
 
-        <article className={style.p_item}>
-          <Image src={modu} alt="Estructura Modular" placeholder="blur" />
-          <h3>Estructura modular</h3>
-          <a
-            className={style.btn}
-            href="https://esmodularweb.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visitar sitio
-          </a>
-        </article>
+        <div className="hidden lg:block">
+          <PortfolioItem
+            img={enviosurbana}
+            alt="envios urbana"
+            titulo="Envios Urbana"
+            enlace="https://www.enviosurbana.com/"
+          />
+        </div>
+
+
       </div>
 
-      <div className={style.link}>
-        <Link href="/Portfolio"> Ver portfolio completo </Link>
-      </div>
+      <button className="flex items-center gap-2 bg-primary-100 py-3 px-4 rounded-lg mt-5 border border-transparent transition-colors hover:border-white ml-auto lg:text-xl">
+        <Link href="/portfolio">Ver portfolio completo</Link>
+        <span>
+          <IoIosArrowForward className="text-xl" />
+        </span>
+      </button>
     </section>
   );
 };

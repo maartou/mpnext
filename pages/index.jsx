@@ -26,7 +26,9 @@ export default function Home() {
       </Script>
 
       <Head>
-        <title>Martin Padron: Desarrollo y diseño de páginas web en Venezuela</title>
+        <title>
+          Martin Padron: Desarrollo y diseño de páginas web en Venezuela
+        </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta
           name="description"
@@ -55,31 +57,21 @@ export default function Home() {
         />
       </Head>
 
-      <Header
-          services="#servicios"
-          portfolio="#portfolio"
-          servi_nav="#servicios"
-          contacto_nav="#contacto"
-        />
+      <div className="sticky left-0 top-0 z-[20] md:hidden">
+        <Header />
+      </div>
 
-      <main>
+      <main className="flex flex-col gap-20">
         <Hero />
         <Services />
         <Skills />
         <PortfolioComp />
         <Testimonios />
-        <Contacto
-          title="Hablemos"
-          content="Ponte en contácto conmigo; cúentame qué necesitas y los detalles del servicio que requieres. ¡Trabajemos juntos! y consigamos cumplir todos tus objetivos, te espero para comenzar :)"
-        />
+        <Contacto />
       </main>
 
-      <Footer
-          servicios="#servicios"
-          experiencia="#experiencia"
-          portfolio="#portfolio"
-          contacto="#contacto"
-        />
+      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/portfolio" contacto="/#contacto" />
+
     </>
   );
 }

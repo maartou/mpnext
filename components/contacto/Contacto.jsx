@@ -1,110 +1,54 @@
-import style from "./Contacto.module.scss";
-
-import Image from "next/legacy/image";
-import illus from "../../public/img/illustrations/end_illustration.svg";
-
+import Image from "next/image";
+import Formulario from "./Formulario";
+import fondo from "../../public/img/liquid_hero.jpg";
+import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
 
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
-
-const Contacto = ({title, content}) => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_mk6s0on",
-        "template_hztts1a",
-        form.current,
-        "RobI50TcH8Bfmvpe_"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
-    e.target.reset();
-  };
-
+const Contacto = () => {
   return (
-    <section className={style.section}>
-      <div className={style.title}>
-        <h3 id="contacto">{title}</h3>
-        <p>
-          {content}
-        </p>
-      </div>
-
-      <div className={style.container_contact}>
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="nombre">
-            <h4>Puedes colocar tu nombre acá</h4>
-            <input type="text" name="name" placeholder="Nombre" required />
+    <section id="contacto">
+      {/* Grid principal */}
+      <div className="grid gap-7 grid-cols-1 lg:grid-cols-2 lg:h-[100vh] ">
+        {/* foto  */}
+        <div className="relative w-full h-[40rem] lg:h-full flex items-center justify-center">
+          <Image src={fondo} alt="" fill className="-z-10 object-cover object-center brightness-50 saturate-0" />
+          <div>
+            <p className="font-thin text-xl 2xl:text-2xl">¿Tienes algun proyecto o idea en mente?</p>
+            <p className="text-center font-bold text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl">Hagámoslo.</p>
           </div>
 
-          <div className="correo">
-            <h4>Tu correo electrónico por aquí</h4>
-            <input type="email" name="email" placeholder="Email" required />
+          
+          <div className="absolute bottom-4 right-[50%] translate-x-[50%] flex gap-7">
+            <a
+              href="https://www.github.com/maartou"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub className="text-3xl" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/programarto/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineInstagram className="text-3xl" />
+            </a>
+
+            <a
+              href="https://wa.me/+584144245029"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineWhatsApp className="text-3xl" />
+            </a>
           </div>
+        </div>
 
-          <div className="texto">
-            <h4>
-              El mensaje que deseés aquí, te responderé en la mayor brevedad
-              posible
-            </h4>
-            <textarea
-              name="mensaje"
-              rows="7"
-              placeholder="Cuéntame qué necesitas..."
-              required
-            ></textarea>
-
-            <button type="submit" className={style.btn}>
-              {" "}
-              Enviar{" "}
-            </button>
-          </div>
-        </form>
-
-        <div className={style.socials}>
-          <a
-            href="https://www.instagram.com/programarto/"
-            target="_blank"
-            rel="noreferrer"
-            className={style.item}
-          >
-            <AiOutlineInstagram className={style.icon} />
-            <h4>@programarto</h4>
-          </a>
-
-          <a
-            href="https://wa.me/+584144245029"
-            target="_blank"
-            rel="noreferrer"
-            className={style.item}
-          >
-            <BsWhatsapp className={style.icon} />
-            <h4>+58 - 414 4245 029</h4>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/martineduardop/"
-            target="_blank"
-            rel="noreferrer"
-            className={style.item}
-          >
-            <AiFillLinkedin className={style.icon} />
-            <h4>Martín Eduardo</h4>
-          </a>
+        {/* Formulario  */}
+        <div className="px-4 lg:flex items-center justify-center lg:px-6 2xl:px-[4rem]">
+          <Formulario />
         </div>
       </div>
     </section>

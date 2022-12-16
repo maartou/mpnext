@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.titulos {
+  @apply text-center mb-5 tracking-[.5em] uppercase font-light text-xl
+}
+
