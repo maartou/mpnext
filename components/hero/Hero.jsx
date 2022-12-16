@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import liquidh from "../../public/img/liquid_hero.jpg";
 import liquid from "../../public/img/liquid.jpg";
 import liquidw from "../../public/img/liquid_w.jpg";
 import logo from "../../public/img/mp_logo.svg";
@@ -76,16 +75,13 @@ const Hero = () => {
 
       <div className="w-full lg:grid lg:grid-rows-2">
         {/* Foto principal y H1  */}
-        <div className="relative h-[35rem] lg:h-auto flex justify-center items-center px-4 saturate-0">
+        <div className="relative h-[35rem] lg:h-auto flex justify-center items-center px-4">
           <h1 className="z-10 uppercase font-bold text-5xl leading-[3rem] lg:text-7xl ">
-            Diseño y Desarrollo web
+            Desarrollo y diseño de páginas web en venezuela
           </h1>
-          <Image
-            src={liquidh}
-            alt=""
-            fill
-            className="object-cover -z-10 brightness-[0.4]"
-          />
+          <video muted loop autoPlay playsInline className="absolute w-full h-full object-cover object-center">
+            <source src="/smoke.mp4" type="video/mp4" />
+          </video>
         </div>
 
         {/* Portfolio y botones  */}
