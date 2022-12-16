@@ -18,36 +18,8 @@ const Contacto = () => {
         </div>
 
         {/* mockup  */}
-        <div className="bg-white overflow-hidden pt-5 2xl:relative">
-          <div>
-            <Image src={mockup} alt="" className="relative left-[4rem] md:w-[60%] md:left-[15rem] lg:left-[13rem] 2xl:w-[70%] 2xl:left-[18rem]" />
-          </div>
-
-          <div className="flex gap-5 justify-center text-black 2xl:absolute 2xl:bottom-5 2xl:right-10">
-            <a
-              href="https://www.github.com/maartou"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillGithub className="text-4xl" />
-            </a>
-
-            <a
-              href="https://www.instagram.com/programarto/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineInstagram className="text-4xl" />
-            </a>
-
-            <a
-              href="https://wa.me/+584144245029"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineWhatsApp className="text-4xl" />
-            </a>
-          </div>
+        <div className="overflow-hidden">
+          <p>ostia</p>
         </div>
       </div>
     </section>
