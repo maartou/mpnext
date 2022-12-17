@@ -77,7 +77,7 @@ const Hero = () => {
         {/* Foto principal y H1  */}
         <div className="relative h-[35rem] lg:h-auto flex justify-center items-center px-4">
           <h1 className="z-10 uppercase font-bold text-5xl leading-[3rem] lg:text-7xl ">
-            Desarrollo y diseño de páginas web en venezuela
+            Desarrollo y diseño de páginas web
           </h1>
           <video muted loop autoPlay playsInline className="absolute w-full h-full object-cover object-center">
             <source src="/smoke.mp4" type="video/mp4" />

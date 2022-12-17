@@ -7,7 +7,9 @@ const Footer = ({ servicios, experiencia, portfolio, contacto }) => {
     <footer className="mt-20 bg-primary-100 py-10">
       <div className="flex flex-col gap-12 items-center">
         <div className="w-[8rem]">
-          <Image src={logo} alt="martin padron" />
+          <Link href="/">
+            <Image src={logo} alt="martin padron" />
+          </Link>
         </div>
 
         <div className="flex flex-col items-center gap-5 md:flex-row text-xl">

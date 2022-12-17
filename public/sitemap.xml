@@ -9,7 +9,48 @@
 
 <url>
   <loc>https://www.martineduardo.com/</loc>
-  <lastmod>2022-12-16T20:23:42+00:00</lastmod>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/precios</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/sobre-mi</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/portfolio</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/desarrollo-web</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/seo</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/diseno-grafico</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/marketing</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.martineduardo.com/cv.pdf</loc>
+  <lastmod>2022-12-17T19:31:21+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
