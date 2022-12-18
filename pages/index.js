@@ -70,8 +70,12 @@ export default function Home() {
         <Contacto />
       </main>
 
-      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/portfolio" contacto="/#contacto" />
-
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/portfolio"
+        contacto="/#contacto"
+      />
     </>
   );
 }
