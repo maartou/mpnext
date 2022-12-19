@@ -29,6 +29,7 @@ const Marketing = () => {
           Marketing digital y gestión de redes sociales en Venezuela
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com/marketing"/> 
         <meta
           name="description"
           content="Marketing digital para que empieces a ganar clientes a traves de internet con las mejores estrategias adaptadas a las necesidades de tu marca o empresa."

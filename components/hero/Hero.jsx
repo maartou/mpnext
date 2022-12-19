@@ -79,7 +79,13 @@ const Hero = () => {
           <h1 className="z-10 uppercase font-bold text-5xl leading-[3rem] lg:text-7xl ">
             Desarrollo y diseño de páginas web
           </h1>
-          <video muted loop autoPlay playsInline className="absolute w-full h-full object-cover object-center">
+          <video
+            muted
+            loop
+            autoPlay
+            playsInline
+            className="absolute w-full h-full object-cover object-center"
+          >
             <source src="/smoke.mp4" type="video/mp4" />
           </video>
         </div>
@@ -87,7 +93,6 @@ const Hero = () => {
         {/* Portfolio y botones  */}
         <div className="grid grid-cols-2 lg:grid-cols-4 overflow-hidden">
           <div className="col-span-2 lg:order-2">
-
             <Link href="/portfolio">
               <div className=" bg-black h-[18rem] relative lg:h-full flex items-center justify-center group transition-all hover:bg-white">
                 <p className="uppercase font-light text-white tracking-[.8em] text-2xl border border-white py-10 px-5 group-hover:text-black group-hover:border-black">
@@ -96,7 +101,6 @@ const Hero = () => {
                 <div className="absolute top-14 right-4 w-60 h-14 border border-white group-hover:border-black 2xl:top-[9rem] 2xl:right-[5rem]"></div>
               </div>
             </Link>
-
           </div>
 
           <div className="relative text-white flex justify-center items-center py-20 lg:order-1">
@@ -110,6 +114,7 @@ const Hero = () => {
               alt=""
               fill
               className="object-cover -z-10 brightness-[0.2] saturate-0"
+              placeholder="blur"
             />
           </div>
 
@@ -119,7 +124,13 @@ const Hero = () => {
                 Contacto
               </button>
             </Link>
-            <Image src={liquidw} alt="" fill className="object-cover -z-10" />
+            <Image
+              src={liquidw}
+              alt=""
+              fill
+              className="object-cover -z-10"
+              placeholder="blur"
+            />
           </div>
         </div>
       </div>
