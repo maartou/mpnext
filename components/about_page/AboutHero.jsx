@@ -10,7 +10,7 @@ const AboutHero = () => {
   return (
     <>
       <section>
-        <div className="w-11/12 mx-auto mt-10 lg:mt-0 2xl:w-[75%]">
+        <div className="w-11/12 mx-auto mt-10 2xl:w-[75%]">
           <h1 className="titulos">Sobre mi</h1>
 
           {/* Contenedor principal  */}

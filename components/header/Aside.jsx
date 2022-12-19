@@ -10,7 +10,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Aside = ({ activador, about, portfolio, servicios, cotizaciones }) => {
   return (
     <>
-      <div className="w-[70%] h-full flex flex-col items-center justify-between py-8 bg-white text-black fixed top-0 left-0 z-[30]">
+      <div className="w-[70%] h-full flex flex-col items-center justify-between py-8 bg-white text-black fixed top-0 left-0 z-[30] md:hidden">
         {/* Loguito en la parte de arriba  */}
         <div className="w-[5rem]">
           <Image src={logo} alt="" />
@@ -69,7 +69,7 @@ const Aside = ({ activador, about, portfolio, servicios, cotizaciones }) => {
 
       <div
         onClick={activador}
-        className="w-[30%] h-full fixed top-0 right-0 bg-black opacity-40 z-[30]"
+        className="w-[30%] h-full fixed top-0 right-0 bg-black opacity-40 z-[30] md:hidden"
       ></div>
     </>
   );
