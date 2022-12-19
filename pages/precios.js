@@ -13,6 +13,7 @@ const Precios = () => {
       <Head>
         <title>Precios | Martín Padrón</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com/precios"/> 
         <meta name="description" content="Obten cotizaciones y precios para diseño y desarrollo web, todo en un solo lugar" />
         <meta name="keywords" content="martin padron, martin padron precios, martin eduardo, martin eduardo precios" />
         <meta

@@ -25,6 +25,7 @@ const SEO = () => {
           SEO Venezuela: consigue las primeras posiciones en Google
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com/seo"/> 
         <meta
           name="description"
           content="Consigue los primeros lugares en Google con las ultimas estrategias en SEO y SEM"

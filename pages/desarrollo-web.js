@@ -33,6 +33,7 @@ const DesarrolloWeb = () => {
           content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
         />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com/desarrollo-web"/> 
         <meta
           property="og:image"
           content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"

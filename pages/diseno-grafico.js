@@ -28,6 +28,7 @@ const Diseno_grafico = () => {
           Diseño gráfico y creación de logos profesionales
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com/diseno-grafico"/> 
         <meta
           name="description"
           content="Desde el logo de tu empresa hasta revistas, folletos, vallas, banners y toda la imagen que involucre una campaña de mercadeo la hacemos realidad para ti."

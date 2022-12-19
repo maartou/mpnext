@@ -10,13 +10,13 @@ const AboutHero = () => {
   return (
     <>
       <section>
-        <div className="w-11/12 mx-auto mt-10 lg:mt-0">
-          <h2 className="titulos">Sobre mi</h2>
+        <div className="w-11/12 mx-auto mt-10 lg:mt-0 2xl:w-[75%]">
+          <h1 className="titulos">Sobre mi</h1>
 
           {/* Contenedor principal  */}
-          <div className="flex flex-col gap-5 lg:flex-row lg:mt-10 lg:gap-10 ">
+          <div className="flex flex-col gap-10 lg:flex-row lg:mt-10">
             {/* Contenedor de foto  */}
-            <div className="p-5 border border-white rounded-full max-w-md mx-auto flex items-center justify-center">
+            <div className="p-5 border border-white rounded-full max-w-md mx-auto flex items-center justify-center lg:max-w-lg">
               <Image src={yo} alt="Martín Padrón" className="rounded-full" />
             </div>
 
@@ -72,6 +72,47 @@ const AboutHero = () => {
               <div className="w-[4rem]">
                 <Image src={logo} alt="martin padron" />
               </div>
+            </div>
+          </div>
+
+          {/* Tabla de curiosidades  */}
+          <div className="mt-10 border w-[95%] mx-auto  border-white p-5 shadow-[8px_8px_0px_#ffffff]">
+            <h2 className="text-center text-2xl lg:text-3xl">Algunos datos curiosos</h2>
+            <div className="text-neutral-400 mt-5 lg:text-lg flex flex-col lg:flex-row gap-3 lg:gap-5">
+              <ul className="list-disc ml-4 flex flex-col gap-3 lg:gap-5">
+                <li>
+                  Soy una persona muy atlética, me gusta el baloncesto y pasar
+                  las tardes haciendo ejercicio.
+                </li>
+                <li>
+                  Soy muy fan de los juegos de From Software (Dark souls,
+                  Sekiro, Elden Ring, etc...)
+                </li>
+                <li>
+                  No veo series porque me parecen muy largos los cápitulos de 1
+                  hora o más.
+                </li>
+                <li>
+                  Tengo una perra que se llama Maya y ha mordido a varios
+                  amigos, pero es una dulzura.
+                </li>
+              </ul>
+              <ul className="list-disc ml-4 flex flex-col gap-3 lg:gap-5">
+                <li>
+                  Soy autodidacta, intento aprender cosas nuevas todos los días.
+                </li>
+                <li>
+                  Soy más de día que de noche, me levanto temprano y me acuesto
+                  a dormir temprano.
+                </li>
+                <li>
+                  Creo que se me dá bastante bien explicar cosas y enseñar
+                </li>
+                <li>
+                  Me gusta mucho ayudar y colaborar en cualquier lado, no me
+                  gusta que la gente haga las cosas por mí.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
