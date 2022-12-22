@@ -11,6 +11,8 @@ import img3 from "../public/img/designs/menu.png";
 import img4 from "../public/img/designs/piel.jpg";
 import img5 from "../public/img/designs/tarjetas.png";
 import img6 from "../public/img/designs/venecia.jpg";
+import img7 from "../public/img/designs/risup.jpg";
+import img8 from "../public/img/designs/blin.png";
 
 import { GiResize } from "react-icons/gi";
 import { DiPhotoshop } from "react-icons/di";
@@ -55,8 +57,8 @@ const Diseno_grafico = () => {
           img4={img4}
           img5={img5}
           img6={img6}
-          img7={img1}
-          img8={img2}
+          img7={img7}
+          img8={img8}
         />
 
         <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
@@ -168,13 +170,6 @@ const Diseno_grafico = () => {
 
         <ContactPage />
       </main>
-
-      <Footer
-        servicios="/#servicios"
-        experiencia="/#experiencia"
-        portfolio="/portfolio"
-        contacto="#contacto"
-      />
 
       <FooterPage
         servicios="/#servicios"
