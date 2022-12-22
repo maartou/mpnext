@@ -20,3 +20,15 @@ body {
   @apply text-center mb-5 tracking-[.5em] uppercase font-light text-xl
 }
 
+.container-txt {
+  @apply w-11/12 mx-auto flex flex-col gap-2 lg:w-[75%] 2xl:w-[70%]
+}
+
+.title-h2 {
+  @apply font-bold text-3xl md:text-4xl 2xl:text-5xl
+}
+
+.txt {
+  @apply text-lg 2xl:text-xl
+}
+
