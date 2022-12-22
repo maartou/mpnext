@@ -7,12 +7,12 @@ const SobreMi = () => {
   return (
     <>
       <Head>
-        <title> Conóceme un poco más | Martín Padrón </title>
+        <title> Conoce un poco más sobre mi: Martín Padrón </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com/sobre-mi"/> 
         <meta
           name="description"
-          content="Soy Martin Padron, desarrollador frontend y diseñador ui/ux. Entra y conóceme un poco más."
+          content="Soy Martin Padron, desarrollador frontend y diseñador ui/ux y puedo ayudarte a construir tu propia página web. Entra y conóceme un poco más."
         />
         <meta
           name="keywords"

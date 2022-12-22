@@ -27,34 +27,32 @@ export default function Home() {
 
       <Head>
         <title>
-          Martin Padron: Desarrollo y diseño de páginas web en Venezuela
+          Desarrollo y diseño web: creación de sitios atractivos y efectivos con
+          Martín Padrón
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        <link rel="canonical" href="https://www.martineduardo.com" />
         <meta
           name="description"
-          content="Diseño y desarrollo de páginas web a medida y en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
+          content="Ofrezco servicios profesionales de desarrollo y diseño web para ayudar a mis clientes a crear sitios atractivos y efectivos. Me aseguraré de que tu sitio sea intuitivo, fácil de usar y optimizado para el SEO. ¡Contáctame hoy mismo para obtener más información!"
         />
         <meta
           name="keywords"
-          content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
+          content="martin padron, diseño web, desarollo web, diseño de sitios web, diseño de páginas web, desarrollo de páginas web, diseño y desarrollo web, diseño web profesional, desarrollo web profesional, servicios de diseño web"
         />
 
         <meta
           property="og:title"
-          content="Martin Padron | Desarrollo y diseño de páginas web en Venezuela"
+          content="Desarrollo y diseño web: creación de sitios atractivos y efectivos con
+          Martín Padrón"
         />
 
         <meta
           property="og:description"
-          content="Diseño y desarrollo de páginas web a medida y en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
+          content="Ofrezco servicios profesionales de desarrollo y diseño web para ayudar a mis clientes a crear sitios atractivos y efectivos. Me aseguraré de que tu sitio sea intuitivo, fácil de usar y optimizado para el SEO. ¡Contáctame hoy mismo para obtener más información!"
         />
 
         <meta property="og:site_name" content="Martin Padron" />
-
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
-        />
       </Head>
 
       <div className="sticky left-0 top-0 z-[20] md:hidden">

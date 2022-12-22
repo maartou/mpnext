@@ -1,155 +1,177 @@
 import Head from "next/head";
-
-import Header from "../components/header/Header";
-import C1 from "../page_components/c1/C1";
-import illus from "../public/img/illustrations/design_illus.svg";
-
-import Contenido from "../page_components/contenido/Contenido";
-
-import C2 from "../page_components/c2/C2";
-import { BsLightbulb } from "react-icons/bs";
-import { BiDevices } from "react-icons/bi";
-import { BiShapeSquare } from "react-icons/bi";
-import { MdDesignServices } from "react-icons/md";
-
-import Title2 from "../page_components/title_2/Title2";
-
-import GridDiseno from "../page_components/grid_img_diseno/GridDiseno";
-
 import Contacto from "../components/contacto/Contacto";
-
 import Footer from "../components/footer/Footer";
+import HeaderPage from "../components/header_page/HeaderPage";
+import HeroPage from "../page_components/hero/HeroPage";
+import InfoCard from "../page_components/infocards/InfoCard";
+
+import img1 from "../public/img/designs/catfe.jpg";
+import img2 from "../public/img/designs/futux.jpg";
+import img3 from "../public/img/designs/menu.png";
+import img4 from "../public/img/designs/piel.jpg";
+import img5 from "../public/img/designs/tarjetas.png";
+import img6 from "../public/img/designs/venecia.jpg";
+import img7 from "../public/img/designs/risup.jpg";
+import img8 from "../public/img/designs/blin.png";
+
+import { GiResize } from "react-icons/gi";
+import { DiPhotoshop } from "react-icons/di";
+import { FaRegLightbulb } from "react-icons/fa";
+import { BiDevices } from "react-icons/bi";
+import ContactPage from "../page_components/contact/ContactPage";
+import FooterPage from "../page_components/footer/FooterPage";
 
 const Diseno_grafico = () => {
   return (
     <>
       <Head>
-        <title>
-          Diseño gráfico y creación de logos profesionales
-        </title>
+        <title>Diseño gráfico y creación de logos profesionales para empresas y negocios</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
-        <link rel="canonical" href="https://www.martineduardo.com/diseno-grafico"/> 
+        <link
+          rel="canonical"
+          href="https://www.martineduardo.com/diseno-grafico"
+        />
         <meta
           name="description"
-          content="Desde el logo de tu empresa hasta revistas, folletos, vallas, banners y toda la imagen que involucre una campaña de mercadeo la hacemos realidad para ti."
+          content="Nuestro equipo de diseñadores gráficos te ayudará a crear un logo único y atractivo que refleje la identidad de tu empresa. Ofrecemos servicios de diseño gráfico para todas las necesidades de tu negocio. ¡Contáctanos para obtener más información!"
         />
         <meta
           name="keywords"
-          content="diseño grafico, que es diseño grafico, diseño grafico venezuela, diseño grafico caracas, para que sirve diseño grafico, que hace diseño grafico, crear un logo, branding para marcas, creacion de logos profesionales"
-        />
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+          content="diseño grafico, creacion de logos, identidad de marca, diseño de marca, diseño de logotipos, diseño de empresas, diseño de negocios, diseño de identidad de marca, diseño de imagen corporativa"
         />
       </Head>
 
-      <Header
-        services="/#servicios"
-        portfolio="/Portfolio"
-        servi_nav="/#servicios"
-        contacto_nav="#contacto"
-      />
+      <HeaderPage />
 
-      <C1
-        foto={illus}
-        title="Diseño gráfico, branding y creación de logos profesionales"
-        content="Desde el logo de tu empresa hasta revistas, folletos, vallas, banners y toda la imagen que involucre una campaña de mercadeo la hacemos realidad para ti. Una buena imagen es fundamental en cualquier empresa."
-      />
+      <main className="bg-white text-black">
+        <HeroPage
+          titulo="Cómo el diseño gráfico puede mejorar la experiencia y visibilidad de tu marca"
+          descripcion="El diseño gráfico es clave para mejorar la experiencia de usuario y aumentar la visibilidad de una marca en línea. Utilizamos elementos como tipografía, colores e imágenes para transmitir tu mensaje de manera atractiva y efectiva. Llegó la hora de utilizar el diseño gráfico estratégicamente para aumentar el impacto de tu marca!"
+          img1={img1}
+          img2={img2}
+          img3={img3}
+          img4={img4}
+          img5={img5}
+          img6={img6}
+          img7={img7}
+          img8={img8}
+        />
 
-      <section>
-        <Contenido title="¿Qué es el diseño gráfico?">
-          <p>
-            <strong>¿Qué es el diseño gráfico?</strong> Muchas personas tienen
-            una idea muy básica acerca de qué hace un diseñador gráfico. ¿Crean
-            logotipos para empresas? ¿Producen anuncios para internet y
-            revistas? ¿Editan imágenes con Photoshop?{" "}
-          </p>
-          <p>
-            Según el American Institute of Graphic Arts (AIGA), el diseño
-            gráfico se define como el arte y la práctica de planificar y
-            proyectar ideas y experiencias con contenido visual y textual. En
-            otras palabras, el diseño gráfico comunica ciertas ideas o mensajes
-            de manera visual. Estos gráficos pueden ser tan simples como un
-            logotipo de negocio o tan complejos como diseños de página en un
-            sitio web.
-          </p>
-          <p>
-            En un concepto amplio, el término diseño gráfico designa superficies
-            bidimensionales materiales o virtuales (generadas por computadora),
-            medios de comunicación visuales y soportes de información mediante
-            la tipografía, la imagen, el color y el material. Asimismo, el
-            diseño gráfico es un medio para representar visualmente el lenguaje
-            y los pensamientos, así como para hacer visibles, legibles y
-            comunicables las conexiones teóricas. Hoy en día, el diseño gráfico
-            es un mediador en casi todos los ámbitos de la vida.
-          </p>
-        </Contenido>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">¿Qué es el diseño gráfico?</h2>
+            <p className="txt">
+              El diseño gráfico es el arte y la ciencia de crear y utilizar
+              elementos visuales para comunicar ideas y mensajes de manera
+              efectiva. Estos elementos visuales pueden incluir imágenes, texto,
+              formas, colores, tipografía y otras características visuales que
+              se utilizan para llamar la atención, transmitir un mensaje y
+              evocar una respuesta emocional en el público objetivo.
+            </p>
+            <p className="txt">
+              El diseño gráfico se utiliza en una amplia variedad de campos,
+              como la publicidad, la comunicación corporativa, el diseño de
+              productos, la industria de la moda y la industria editorial, entre
+              muchos otros. Un diseño gráfico efectivo es capaz de transmitir un
+              mensaje de manera clara y atractiva, y es esencial para cualquier
+              empresa o individuo que desee promocionar sus productos o
+              servicios de manera efectiva.
+            </p>
+          </div>
+        </section>
 
-        <Contenido title="¿Por qué es importante el diseño gráfico?">
-          <p>
-            Partiendo de la definición y la descripción de qué es el diseño
-            gráfico de antes, es clave entender la importancia del diseño
-            gráfico hoy en día, ya que esta puede ayudar a alcanzar todo tipo de
-            objetivos mejorando la comunicación con otras personas.{" "}
-          </p>
-          <p>
-            El ámbito de cosas que se pueden crear aprendiendo los fundamentos
-            del diseño gráfico es enorme. Va desde presentaciones de empresa,
-            pasando por folletos sencillos hasta{" "}
-            <strong>modernos sitios web.</strong> El diseño gráfico te permite,
-            por ejemplo:
-          </p>
-          <ul>
-            <li>Causar una buena primera impresión.</li>
-            <li>Distinguirte de la competencia.</li>
-            <li>Proyectar una imagen de profesionalismo y confianza.</li>
-            <li>
-              Hacer que tus ideas tengan mayor alcance y resonancia a través del
-              lenguaje y la comunicación visual.
-            </li>
-          </ul>
-          <p>
-            En resumen, el diseño gráfico es un arte muy poderoso que juega un
-            papel destacado en áreas tan importantes como el marketing digital.
-          </p>
-          <p>
-            Las empresas de éxito lo utilizan una y otra vez para dar a su
-            perfil y a su marca una expresión contemporánea y moderna. Sin
-            embargo, los fundamentos del diseño gráfico no solo son relevantes
-            para fines comerciales, sino también en el campo del arte y la
-            pintura.
-          </p>
-        </Contenido>
-      </section>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2 lg:mb-4">
+              ¿Por qué es importante el diseño gráfico?
+            </h2>
+            <ul className="txt flex flex-col gap-2 lg:gap-4">
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Ayuda a comunicar el mensaje de manera clara y efectiva:
+                </strong>{" "}
+                El diseño gráfico permite transmitir un mensaje de manera visual
+                y atractiva, lo que puede ser más efectivo que utilizar solo
+                texto.
+              </li>
 
-      <C2
-        icon1={<BiShapeSquare className="icon" />}
-        servi1="Todos los formatos"
-        content1="Desde un post de instagram hasta vallas publicitarias."
-        icon2={<MdDesignServices className="icon" />}
-        servi2="Dominio de múltiples aplicaciones"
-        content2="Tales como Figma, Photoshop, Illustrator y muchos más."
-        icon3={<BsLightbulb className="icon" />}
-        servi3="Le damos forma a tus ideas"
-        content3="Diseñamos a tu medida, cómo lo necesites y de la manera en que te lo imaginas."
-        icon4={<BiDevices className="icon" />}
-        servi4="Diseño de mockups"
-        content4="Verás tu diseño plasmado en la realidad."
-        title="Conoce nuestras especializaciones"
-      />
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Establece la identidad de una marca:
+                </strong>{" "}
+                El diseño gráfico es esencial para establecer la identidad de
+                una marca y su diferenciación en el mercado.
+              </li>
 
-      <GridDiseno title="Portfolio y ejemplos" />
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Ayuda a destacar entre la competencia:
+                </strong>{" "}
+                Un diseño gráfico atractivo y bien pensado puede ayudar a una
+                empresa o individuo a destacar entre la competencia.
+              </li>
 
-      <Contacto
-        title="Tus ideas hechas realidad"
-        content="Ponte en contacto conmigo y cúentame tus ideas, te aseguro que las haremos realidad..."
-      />
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mejora la experiencia de usuario:
+                </strong>{" "}
+                Un diseño gráfico bien hecho puede mejorar la experiencia del
+                usuario al interactuar con un producto o servicio, lo que puede
+                llevar a una mayor lealtad del cliente.
+              </li>
 
-      <Footer
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Aumenta la confianza del cliente:
+                </strong>{" "}
+                Un diseño gráfico profesional y bien hecho puede aumentar la
+                confianza del cliente en una empresa o producto, lo que puede
+                llevar a un aumento de ventas.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Tarjetas de información  */}
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <h2 className="title-h2 text-center max-w-[90%] mx-auto mb-5">
+            Nuestras especializaciones
+          </h2>
+          <div className="w-11/12 mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <InfoCard
+              titulo="Todos los formatos"
+              desc="Desde un post de instagram hasta vallas publicitarias."
+              icon={<GiResize />}
+            />
+
+            <InfoCard
+              titulo="Dominio de multiples aplicaciones"
+              desc="Tales como Figma, Photoshop, Illustrator y muchos más."
+              icon={<DiPhotoshop />}
+            />
+
+            <InfoCard
+              titulo="Le damos forma a tus ideas"
+              desc="Diseñamos a tu medida, cómo lo necesites y de la manera en que te lo imaginas."
+              icon={<FaRegLightbulb />}
+            />
+
+            <InfoCard
+              titulo="Diseño de mockups"
+              desc="Verás tu diseño plasmado en la realidad."
+              icon={<BiDevices />}
+            />
+          </div>
+        </section>
+
+        <ContactPage />
+      </main>
+
+      <FooterPage
         servicios="/#servicios"
         experiencia="/#experiencia"
-        portfolio="/Portfolio"
-        contacto="#contacto"
+        portfolio="/portfolio"
+        contacto="#contactopage"
       />
     </>
   );

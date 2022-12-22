@@ -1,38 +1,32 @@
 import Head from "next/head";
-import Header from "../components/header/Header";
-import style from '../page_components/contenido/Contenido.module.scss'
-
-import C1 from "../page_components/c1/C1";
-import illus from "../public/img/illustrations/seo_illus.svg";
-
-import Contenido from "../page_components/contenido/Contenido";
-
-import C2 from "../page_components/c2/C2";
-import { BiSupport } from "react-icons/bi";
-import { AiOutlineLineChart } from "react-icons/ai";
-import { BiBookBookmark } from "react-icons/bi";
-import { HiOutlinePresentationChartBar } from "react-icons/hi";
-
+import HeaderPage from "../components/header_page/HeaderPage";
+import HeroPage2 from "../page_components/hero/HeroPage2";
 import Contacto from "../components/contacto/Contacto";
-
 import Footer from "../components/footer/Footer";
+import illus from "../public/img/illustrations/google.png";
+import InfoCard from "../page_components/infocards/InfoCard";
+
+import { BiHelpCircle } from "react-icons/bi";
+import { BiLineChart } from "react-icons/bi";
+import { BiBook } from "react-icons/bi";
+import { AiFillPieChart } from "react-icons/ai";
+import ContactPage from "../page_components/contact/ContactPage";
+import FooterPage from "../page_components/footer/FooterPage";
 
 const SEO = () => {
   return (
     <>
       <Head>
-        <title>
-          SEO Venezuela: consigue las primeras posiciones en Google
-        </title>
+        <title>Mejora el posicionamiento de tu sitio web con nuestros servicios de SEO</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
-        <link rel="canonical" href="https://www.martineduardo.com/seo"/> 
+        <link rel="canonical" href="https://www.martineduardo.com/seo" />
         <meta
           name="description"
-          content="Consigue los primeros lugares en Google con las ultimas estrategias en SEO y SEM"
+          content="¿Quieres que tu sitio web aparezca en los primeros resultados de búsqueda? es posible aplicando las últimas estrategias en SEO para optimizar tu sitio web y mejorar su posicionamiento en los motores de búsqueda. Ofrezco un servicio completo de SEO que incluye investigación de palabras clave, optimización de contenido y enlaces entrantes. ¡Contáctanos para obtener más información!"
         />
         <meta
           name="keywords"
-          content="seo, sem, martin padron seo, seo pagina web, seo sitio web, martin padron sem, seo desarrollo web, seo programacion, seo web, seo venezuela, seo que es"
+          content="seo, posicionamiento en motores de busqueda, optimizacion de sitios web, investigacion de palabras clave, optimizacion de contenido, enlaces entrantes, mejora el trafico organico, analisis de competencia, optimizacion de la velocidad del sitio, tecnicas seo"
         />
         <meta
           property="og:image"
@@ -40,118 +34,163 @@ const SEO = () => {
         />
       </Head>
 
-      <Header
-        services="/#servicios"
-        portfolio="/Portfolio"
-        servi_nav="/#servicios"
-        contacto_nav="#contacto"
-      />
+      <HeaderPage />
 
-      <C1
-        foto={illus}
-        title="Consigue las primeras posiciones en Google con un buen posicionamiento SEO"
-        content="Todo el mundo quiere salir primero en la primera página de Google, pero solo 10 de ellos lo consiguen. Es hora de que encuentren tú negocio entre esos primeros 10."
-      />
+      <main className="bg-white text-black">
+        <HeroPage2
+          titulo="Mejora el posicionamiento de tu sitio web con nuestros servicios de SEO"
+          descripcion="Ofrecemos servicios de SEO profesionales para ayudar a tu sitio web o red social a alcanzar un mejor posicionamiento en los motores de búsqueda, utilizamos técnicas probadas y efectivas para optimizar tu sitio y aumentar el tráfico orgánico."
+          illus={illus}
+          clase="bg-black flex items-center justify-center"
+        />
 
-      <section>
-        <Contenido title="¿Qué es el SEO?">
-          <p>
-            <strong>¿Qué es el SEO?</strong> SEO es la abreviación de Search
-            Engine Optimization (optimización en motores de búsqueda). Es el
-            conjunto de técnicas y estrategias centradas en optimizar el
-            posicionamiento orgánico en buscadores de internet. Algunos ejemplos
-            son Google, Bing, Baidu, Yahoo!, Yandex, DuckDuckGo o YouTube.
-          </p>
-          <p>
-            Contar con una página web para tu marca o empresa es la base de
-            cualquier presencia digital, pero el esfuerzo de crearla no sirve de
-            nada si no te aseguras de que tu audiencia la encuentre. Por eso, es
-            imprescindible hacer que Google funcione a tu favor.
-          </p>
-          <p>
-            Es muy importante tener claro que el SEO se refiere a los resultados
-            orgánicos, esto es, no pagados. A la opción complementaria (pagar un
-            coste por clic para ocupar los primeros lugares para una búsqueda
-            determinada) se le conoce como SEM o Search Engine Marketing.{" "}
-          </p>
-        </Contenido>
+        {/* Contenido textual  */}
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">¿Qué es el SEO?</h2>
+            <p className="txt">
+              El SEO (Search Engine Optimization, o Optimización para Motores de
+              Búsqueda) es el proceso de mejorar la calidad y la cantidad del
+              tráfico de un sitio web a través de resultados de búsqueda
+              orgánicos. Esto se logra mediante el uso de técnicas y estrategias
+              para optimizar el contenido y la estructura de un sitio web, con
+              el fin de mejorar su posicionamiento en los resultados de búsqueda
+              de los motores de búsqueda como Google.
+            </p>
+            <p className="txt">
+              El objetivo del SEO es aumentar la visibilidad de un sitio web en
+              los resultados de búsqueda orgánicos, con el fin de atraer a más
+              tráfico calificado y aumentar las oportunidades de conversión
+              (como la generación de leads o la venta de productos).
+            </p>
+            <p className="txt">
+              Existen diferentes factores que afectan el posicionamiento de un
+              sitio web en los resultados de búsqueda, como la calidad y la
+              relevancia del contenido, la estructura del sitio, la presencia de
+              palabras clave, entre otros. El SEO es una disciplina en constante
+              evolución, ya que los motores de búsqueda como Google actualizan
+              regularmente sus algoritmos y pautas para mejorar la calidad de
+              sus resultados de búsqueda
+            </p>
+          </div>
+        </section>
 
-        <Contenido title="¿Por qué es importante el SEO?">
-          <p>
-            La razón más importante por la que es necesario el SEO es porque
-            <strong> hace más útil tu página web tanto para los usuarios como para los
-            motores de búsqueda.</strong> Aunque estos aún no pueden ver una página web
-            como lo hace un humano. El SEO es necesario para ayudar a los
-            motores de búsqueda a entender sobre qué trata cada página y si es o
-            no útil para los usuarios.
-          </p>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">¿Por qué es importante el SEO?</h2>
+            <p className="txt">
+              El SEO (Search Engine Optimization) es importante porque puede
+              ayudar a aumentar la visibilidad de un sitio web en los resultados
+              de búsqueda de los motores de búsqueda como Google. Cuando un
+              sitio aparece en los primeros resultados de búsqueda, es más
+              probable que reciba tráfico y atraiga a nuevos visitantes. Esto
+              puede ser especialmente importante para las empresas, ya que puede
+              ayudar a atraer a más clientes potenciales y aumentar las ventas.
+            </p>
+            <p className="txt">
+              Además, el SEO también puede ayudar a mejorar la experiencia del
+              usuario al visitar un sitio web. Los sitios web optimizados para
+              los motores de búsqueda suelen cargar más rápido, tener una
+              estructura de navegación clara y ser fáciles de usar en
+              dispositivos móviles. Todo esto puede hacer que los visitantes
+              pasen más tiempo en el sitio y regresen en el futuro.
+            </p>
+            <p className="txt">
+              En resumen, el SEO es importante porque puede ayudar a aumentar el
+              tráfico y las ventas de un sitio web, así como mejorar la
+              experiencia del usuario.
+            </p>
+          </div>
+        </section>
 
-          <p>
-            El SEO es la mejor manera de que tus usuarios te encuentren a través
-            de búsquedas en las que tu página web es relevante. Estos usuarios
-            buscan lo que tú les ofreces. La mejor manera de llegar a ellos es
-            mediante un motor de búsqueda.
-          </p>
-        </Contenido>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2 lg:mb-4">
+              Ventajas de hacer una buena estrategia SEO
+            </h2>
+            <ul className="txt flex flex-col gap-2 lg:gap-4">
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor visibilidad:
+                </strong>{" "}
+                Un sitio web que está bien optimizado para los motores de
+                búsqueda tendrá una mayor visibilidad en los resultados de
+                búsqueda y, por lo tanto, recibirá más tráfico orgánico.
+              </li>
 
-        <Contenido title="Ventajas de hacer una buena estrategia SEO">
-          <p>
-            Una buena implementación de SEO trae consigo grandes resultados y
-            beneficios para tu sitio web:
-          </p>
-          <ul className={style.marketing_list}>
-            <li>
-              <strong>Multiplica tu visibilidad</strong> y te diferencia de la competencia.
-            </li>
-            <li>
-              <strong>Mejora tu web:</strong> No sólo tu sitio web mejora de cara a los motores
-              de búsqueda, sino también para los propios usuarios y la
-              experiencia de estos en el mismo.
-            </li>
-            <li>
-              <strong>Una inversión a largo plazo:</strong> A pesar de que al principio optimizar
-              tu página web conlleva ciertos costos, si logras posicionarla
-              entre los primeros puestos, la fuente de tráfico de calidad y sin
-              costo alguno será extraordinaria. Como si fuese poco, si logras
-              posicionar varias palabras claves o lanzarte al SEO internacional,
-              los beneficios se multiplicarán.
-            </li>
-            <li>
-              <strong>Aumenta tu impacto en las redes sociales:</strong> El posicionamiento web
-              logra coordinarse con el social media, ya que los enlaces de las
-              redes utilizan aquellos títulos y descripciones que optimizaste en
-              tu estrategia SEO.
-            </li>
-          </ul>
-        </Contenido>
-      </section>
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor autoridad:
+                </strong>{" "}
+                Los motores de búsqueda utilizan una serie de factores para
+                determinar la autoridad y relevancia de un sitio web. Al
+                optimizar adecuadamente su sitio, puede mejorar su autoridad y,
+                por lo tanto, aumentar su posicionamiento en los resultados de
+                búsqueda.
+              </li>
 
-      <C2
-        icon1={<BiSupport className="icon" />}
-        servi1="Asesoría completa"
-        content1="El posicionamiento es complejo, pero yo te ayudo en todo el camino."
-        icon2={<AiOutlineLineChart className="icon" />}
-        servi2="Sube a lo más alto"
-        content2="Mejora tu visibilidad en Google con un posicionamiento de calidad"
-        icon3={<BiBookBookmark className="icon" />}
-        servi3="Keyword research"
-        content3="Utilizo herramientas que permiten descubrir las palabras clave que llevarán a tus potenciales clientes a encontrar tu sitio web."
-        icon4={<HiOutlinePresentationChartBar className="icon" />}
-        servi4="Mejora tus métricas"
-        content4="El primer paso es que te encuentren. Consiguen más tráfico de manera orgánica"
-        title="Nuestros servicios"
-      />
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor engagement:
+                </strong>{" "}
+                Los visitantes que llegan a su sitio a través de los resultados
+                de búsqueda son más propensos a interactuar con su sitio y a
+                permanecer más tiempo en él. Esto puede llevar a un mayor
+                engagement y conversión.
+              </li>
 
-      <Contacto
-        title="No esperes más"
-        content="Empieza a aparecer en las primeras posiciones y dale la popularidad a tu marca que se merece."
-      />
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor rentabilidad:
+                </strong>{" "}
+                Un sitio web bien optimizado puede generar más tráfico orgánico
+                y, por lo tanto, puede tener un impacto positivo en la
+                rentabilidad de su negocio.
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <Footer
+        {/* Tarjetas de información  */}
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <h2 className="title-h2 text-center max-w-[90%] mx-auto mb-5">
+            Nuestros servicios:
+          </h2>
+          <div className="w-11/12 mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <InfoCard
+              titulo="Asesoría completa"
+              desc="El posicionamiento es complejo, pero yo te ayudo en todo el camino."
+              icon={<BiHelpCircle />}
+            />
+
+            <InfoCard
+              titulo="Sube a lo más alto"
+              desc="Mejora tu visibilidad en Google con un posicionamiento de calidad"
+              icon={<BiLineChart />}
+            />
+
+            <InfoCard
+              titulo="Keyword research"
+              desc="Utilizo herramientas que permiten descubrir las palabras clave que llevarán a tus potenciales clientes a encontrar tu sitio web."
+              icon={<BiBook />}
+            />
+
+            <InfoCard
+              titulo="Mejora tus métricas"
+              desc="El primer paso es que te encuentren. Consiguen más tráfico de manera orgánica"
+              icon={<AiFillPieChart />}
+            />
+          </div>
+        </section>
+
+        <ContactPage />
+      </main>
+
+      <FooterPage
         servicios="/#servicios"
         experiencia="/#experiencia"
-        portfolio="/Portfolio"
-        contacto="#contacto"
+        portfolio="/portfolio"
+        contacto="#contactopage"
       />
     </>
   );

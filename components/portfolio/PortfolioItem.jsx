@@ -6,7 +6,7 @@ const PortfolioItem = ({img, alt, titulo, enlace}) => {
     <article className='border border-white lg:h-[20rem] 2xl:h-[26rem]'>
         {/* Contenedor de las fotos  */}
         <div>
-            <Image src={img} alt={alt} />
+            <Image src={img} alt={alt} placeholder="blur" />
         </div>
 
         {/* Titulo y enlace  */}

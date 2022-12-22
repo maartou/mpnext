@@ -19,8 +19,22 @@ const Header = () => {
         </Link>
         <GoThreeBars
           onClick={trigger}
-          className="text-[2.2rem] cursor-pointer"
+          className="text-[2.2rem] cursor-pointer md:hidden"
         />
+        <nav className="hidden md:flex gap-7 text-lg">
+          <Link href="/sobre-mi">
+            <div className="transition-colors hover:text-primary-100">Sobre mi</div>
+          </Link>
+          <Link href="/portfolio">
+            <div className="transition-colors hover:text-primary-100">Portfolio</div>
+          </Link>
+          <Link href="/#servicios">
+            <div className="transition-colors hover:text-primary-100">Servicios</div>
+          </Link>
+          <Link href="/precios">
+            <div className="transition-colors hover:text-primary-100">Precios</div>
+          </Link>
+        </nav>
       </header>
       {open && (
         <Aside

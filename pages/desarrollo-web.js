@@ -1,191 +1,223 @@
 import Head from "next/head";
-import style from "../page_components/contenido/Contenido.module.scss";
-
-import Header from "../components/header/Header";
-import C1 from "../page_components/c1/C1";
-
-import Contenido from "../page_components/contenido/Contenido";
-
-import C2 from "../page_components/c2/C2";
-import illus from "../public/img/illustrations/web_illus.svg";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { BsCodeSlash } from "react-icons/bs";
-import { BiShoppingBag } from "react-icons/bi";
-import { FaServer } from "react-icons/fa";
-
-import GridWeb from "../page_components/grid_img_web/GridWeb";
-
 import Contacto from "../components/contacto/Contacto";
-
 import Footer from "../components/footer/Footer";
+import HeroPage from "../page_components/hero/HeroPage";
+import HeaderPage from "../components/header_page/HeaderPage";
+
+import img1 from "../public/img/portfolio/Gym.png";
+import img2 from "../public/img/portfolio/hollow.png";
+import img3 from "../public/img/portfolio/jh.png";
+import img4 from "../public/img/portfolio/venecia.jpg";
+import img5 from "../public/img/portfolio/Tasty.png";
+import img6 from "../public/img/portfolio/Stile.png";
+import img7 from "../public/img/portfolio/makeup.png";
+import img8 from "../public/img/portfolio/venezuela.jpg";
+
+import InfoCard from "../page_components/infocards/InfoCard";
+import { BiCodeAlt } from "react-icons/bi";
+import { MdLocalGroceryStore } from "react-icons/md";
+import { FaServer } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import ContactPage from "../page_components/contact/ContactPage";
+import FooterPage from "../page_components/footer/FooterPage";
 
 const DesarrolloWeb = () => {
   return (
     <>
       <Head>
-        <title>Diseño web: ¿qué es una página web? y razones del porqué deberías tener una</title>
+        <title>
+         Servicios de desarrollo y diseño web personalizados
+        </title>
         <meta
           name="description"
-          content="Desarrollo de sitios web a tu medida y diseñadas en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
+          content="Ofrezco servicios de desarrollo y diseño web personalizados para ayudar a mis clientes a crear una presencia en línea única y atractiva. Aplicando las últimas técnologias en desarrollo y diseño web para entender tus necesidades y crear una solución personalizada que se ajuste a tu presupuesto y a tus objetivos de negocio. ¡Póngase en contacto hoy mismo para obtener más información!"
         />
         <meta
-          name="keywords"
-          content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
+         name="keywords"
+         content="martin padron, diseño web, desarollo web, diseño de sitios web, diseño de páginas web, desarrollo de páginas web, diseño y desarrollo web, diseño web profesional, desarrollo web profesional, servicios de diseño web"
         />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
-        <link rel="canonical" href="https://www.martineduardo.com/desarrollo-web"/> 
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+        <link
+          rel="canonical"
+          href="https://www.martineduardo.com/desarrollo-web"
         />
       </Head>
 
-      <Header
-        services="/#servicios"
-        portfolio="/Portfolio"
-        servi_nav="/#servicios"
-        contacto_nav="#contacto"
-      />
+      <HeaderPage />
 
-      <C1
-        foto={illus}
-        title="Diseño y desarrollo de páginas y sitios webs, todo lo que tu negocio necesita para adquirir conversiones"
-        content="Con tu propio sitio web podrás conseguir más visitas y convertirlos en potenciales clientes más fácilmente, además de ganar autoridad frente a tu competencia, automatizar procesos, ahorrar tiempo y mucho más."
-      />
+      <main className="bg-white text-black">
+        <HeroPage
+          titulo="Desarrollo y diseño web personalizado para tu empresa o negocio"
+          descripcion=" Descubre como el desarrollo de sitios web y diseño de interfaz de
+              usuario pueden ayudar a impulsar el éxito de tu empresa."
+          img1={img1}
+          img2={img2}
+          img3={img3}
+          img4={img4}
+          img5={img5}
+          img6={img6}
+          img7={img7}
+          img8={img8}
+        />
 
-      <section className={style.content_section}>
-        <Contenido title="¿Qué es una página web?">
-          <p>
-            Se conoce como página Web, página electrónica o página digital a un
-            documento digital de carácter multimediático (es decir, capaz de
-            incluir audio, video, texto y sus combinaciones), adaptado a los
-            estándares de la World Wide Web (WWW) y a la que se puede acceder a
-            través de un navegador Web y una conexión activa a internet, se
-            trata del formato básico de contenidos en la red.
-          </p>
-          <p>
-            Las páginas Web se encuentran programadas en un formato HTML o
-            XHTML, y se caracterizan por su relación entre unas y otras a través
-            de
-            <strong> hipervínculos:</strong> enlaces hacia contenidos diversos
-            que permiten una lectura compleja, simultánea y diversa, muy
-            distinta a la que podemos hallar en los libros y revistas.
-          </p>
-        </Contenido>
+        {/* Contenido textual  */}
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">¿Qué es una página web?</h2>
+            <p className="txt">
+              Una página web es un documento o conjunto de documentos que se
+              encuentran en Internet y que se pueden acceder a través de un
+              navegador de Internet, como Google Chrome, Firefox o Safari.
+            </p>
+            <p className="txt">
+              Las páginas web suelen contener texto, imágenes, videos y enlaces
+              a otros documentos o páginas web. Las páginas web se crean
+              utilizando lenguajes de programación como HTML, CSS y JavaScript y
+              se almacenan en servidores de Internet, que son computadoras que
+              están conectadas a Internet y que permiten que otros usuarios
+              accedan a ellas a través de un navegador de Internet.
+            </p>
+          </div>
+        </section>
 
-        <Contenido title="Diferencias entre página web, sitio web y aplicación web">
-          <p>
-            Una <strong> página web </strong> es cada una de las pantallas que
-            vemos dentro de un Sitio Web, por ejemplo: la página de inicio,
-            contacto, servicios, acerca de, preguntas frecuentes, etc. Estas
-            páginas están construidas con HTML, CSS y pueden incluir JavaScript.
-          </p>
-          <p>
-            Podemos definir a un <strong> sitio web </strong> como un conjunto
-            de páginas dentro de un dominio. Por ejemplo, actualmente estás
-            ubicado en una página de mi sitio web, que está conformado por
-            páginas que describen los diferentes servicios que ofrezco. El
-            objetivo de esto no es hacer negocio sino que es parte de una
-            estrategia de marketing para ofertar productos o servicios al
-            espectador.
-          </p>
-          <p>
-            Puedes pensar esto como <strong> un libro </strong>, un libro está
-            compuesto por muchas páginas: cada página individual ofrece
-            información diferente a las demás páginas pero todo dentro de un
-            mismo tema. Un sitio web es exactamente igual.
-          </p>
-          <p>
-            Finalmente, una <strong> aplicación web </strong> es un programa
-            desarrollado con tecnologías web. Pero lo que lo diferencia un sitio
-            de una Aplicación Web es que no solo sirve para transmitir
-            información al espectador, sino que la aplicación resuelve una
-            necesidad o problema para los usuarios y cuenta con múltiples
-            funcionalidades por ejemplo:
-          </p>
-          <ul>
-            <li>Ofertar productos y permitirle al cliente comprarlos</li>
-            <li>Ofrecer atención al cliente</li>
-            <li>Mirar videos e interacciones multimedia</li>
-            <li>Convertir archvios a otros formatos</li>
-            <li>¡Y mucho más! el límite está en la imaginación.</li>
-          </ul>
-        </Contenido>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">
+              Diferencias entre página web, sitio web y aplicación web
+            </h2>
+            <ul className="txt flex flex-col gap-2">
+              <li>
+                Una <strong className="text-primary-100">página web</strong> es
+                un documento o conjunto de documentos que se encuentran en
+                Internet y que se pueden acceder a través de un navegador de
+                Internet. Una página web suele contener texto, imágenes, videos
+                y enlaces a otros documentos o páginas web.
+              </li>
+              <li>
+                Un <strong className="text-primary-100">sitio web</strong> es un
+                conjunto de páginas web que están relacionadas entre sí y que
+                suelen tener una estructura común. Por ejemplo, un sitio web de
+                una empresa podría incluir una página principal, páginas de
+                productos o servicios, páginas de contacto y un blog.
+              </li>
+              <li>
+                Una <strong className="text-primary-100">aplicación web</strong>{" "}
+                es un programa que se ejecuta en un navegador de Internet y que
+                permite realizar tareas o acceder a información a través de
+                Internet. Algunos ejemplos de aplicaciones web son el correo
+                electrónico en línea, el editor de texto en línea y el juego en
+                línea.
+              </li>
+            </ul>
+            <p className="txt">
+              En resumen, una{" "}
+              <strong className="text-primary-100">página web</strong> es un
+              documento individual que se encuentra en Internet, mientras que un{" "}
+              <strong className="text-primary-100">sitio web</strong> es un
+              conjunto de páginas web relacionadas y una{" "}
+              <strong className="text-primary-100">aplicación web</strong> es un
+              programa que se ejecuta en un navegador y permite realizar tareas
+              o acceder a información a través de Internet.
+            </p>
+          </div>
+        </section>
 
-        <Contenido title="Razones del porqué deberías tener una página web">
-          <dl className={style.list} id="razones">
-            <dt>Clientes siempre informados</dt>
-            <dd>
-              En su forma más básica, un sitio web es cómo un folleto o cátalogo
-              en línea que puede actualizarse en cualquier momento. Es mucho más
-              fácil y rápido actualizar la información sobre sus productos y
-              servicios en su sitio web que en un folleto impreso o catálogo.
-            </dd>
-          </dl>
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <div className="container-txt">
+            <h2 className="title-h2">
+              ¿Por qué deberías tener una página web?
+            </h2>
+            <ul className="txt flex flex-col gap-2 lg:gap-4">
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Presencia en línea:
+                </strong>{" "}
+                Una página web te permite tener una presencia en línea y estar
+                disponible para que clientes potenciales te encuentren y
+                obtengan información sobre su negocio, productos o servicios.
+              </li>
 
-          <dl className={style.list}>
-            <dt>Exhibe productos y ofrece servicios</dt>
-            <dd>
-              Ya que puedes proporcionar las fotos y descripciones detalladas de
-              tus productos o servicios, tendrás tu propio mostrador online.
-            </dd>
-          </dl>
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor alcance:
+                </strong>{" "}
+                Una página web te permite llegar a un público más amplio y
+                global, más allá de tu ubicación física.
+              </li>
 
-          <dl className={style.list}>
-              <dt>Control total del contenido publicado</dt>
-              <dd>Incluso teniendo una gran presencia en las redes sociales, otra razón, y probablemente <strong> la razón más importante por la que deberías tener tener un sitio web, </strong> es que realmente tú eres el dueño de tu sitio, y tú controlas lo que publicas, cómo lo publicas y cúando lo publicas.</dd>
-          </dl>
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor credibilidad:
+                </strong>{" "}
+                Tener una web le da a tu negocio una apariencia más profesional
+                y le brinda mayor credibilidad a tus clientes.
+              </li>
 
-          <dl className={style.list}>
-            <dt>Aumenta la visibilidad de tú negocio</dt>
-            <dd>Ya que todos podemos encontrate más fácilmente.</dd>
-          </dl>
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor eficiencia:
+                </strong>{" "}
+                Una web te permite brindar información y servicios de manera más
+                eficiente y económica que otras formas de marketing. Por
+                ejemplo, puedes utilizar una página web para proporcionar
+                información de contacto, horarios de atención y precios de
+                manera actualizada y fácilmente accesible para sus clientes.
+              </li>
 
-          <dl className={style.list}>
-            <dt>Siempre accesible</dt>
-            <dd>Un sitio web está abierto las 24 horas del día, los 365 días del año.</dd>
-          </dl>
+              <li>
+                <strong className="text-primary-100 text-xl">
+                  Mayor flexibilidad:
+                </strong>
+                También podrás actualizar y cambiar tu contenido de manera más
+                rápida y sencilla que otras formas de marketing, lo que le
+                permite adaptarse a los cambios en el mercado y en tus
+                necesidades de negocio.
+              </li>
+            </ul>
+          </div>
+        </section>
 
-          <dl className={style.list}>
-            <dt>Muestra al mundo tus habilidades</dt>
-            <dd>No importa el tipo de negocio, un sitio web es un excelente lugar para exhibir los trabajos realizados o demostrar tus habilidades. Al incluir un portfolio, galería de imágenes o vídeos.</dd>
-          </dl>
+        {/* Tarjetas de información  */}
+        <section className="mt-10 lg:mt-[4rem] 2xl:mt-[4.5rem]">
+          <h2 className="title-h2 text-center max-w-[90%] mx-auto mb-5">
+            ¿Qué tendrá tu página web?
+          </h2>
+          <div className="w-11/12 mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <InfoCard
+              titulo="Diseño a medida"
+              desc="con óptima experiencia de navegación garantizada"
+              icon={<BiCodeAlt />}
+            />
 
-          <dl className={style.list}>
-            <dt>Tendrás una imagen profesional y creíble</dt>
-            <dd>Para una pequeña empresa, un sitio web bien diseñado es una manera estupenda de formar credibilidad y verse más grande de lo que realmente es.</dd>
-          </dl>
-        </Contenido>
-      </section>
+            <InfoCard
+              titulo="Vende Online"
+              desc="¿Tienes una tienda u ofreces servicio y quieres digitalizarlo? estás en el lugar correcto."
+              icon={<MdLocalGroceryStore />}
+            />
 
-      <C2
-      title="¿Qué tendrá tu página web?"
-        icon1={<BsCodeSlash className="icon" />}
-        servi1="Diseño a medida"
-        content1="Con óptima experiencia de navegación garantizada."
-        icon2={<BiShoppingBag className="icon" />}
-        servi2="Vende Online"
-        content2="¿Tienes una tienda u ofreces un servicio y quieres digitalizarlo? estás en el lugar correcto."
-        icon3={<FaServer className="icon" />}
-        servi3="Paquete completo"
-        content3="Dominio, alojamiento y mantenimiento web. ¡Todo está incluido!"
-        icon4={<AiOutlineInstagram className="icon" />}
-        servi4="Redes sociales"
-        content4="¿Quieres que las personas que visiten tu web también visiten tus redes sociales? ¡Es posible!"
-      />
+            <InfoCard
+              titulo="Paquete completo"
+              desc="Dominio, alojamiento y mantenimiento web. ¡Todo está incluido!"
+              icon={<FaServer />}
+            />
 
-      <GridWeb title="Ejemplos de diseño web" />
+            <InfoCard
+              titulo="Redes sociales"
+              desc="¿Quieres que las personas visiten tu web también visiten tus redes sociales? ¡Es posible!"
+              icon={<AiFillInstagram />}
+            />
+          </div>
+        </section>
 
-      <Contacto
-        title="empecemos"
-        content="Rellena el formulario o escríbeme al Whatsapp para cotizaciones y más información, te atenderé a la brevedad"
-      />
+        {/* Contacto  */}
+        <ContactPage />
+      </main>
 
-      <Footer
+      <FooterPage
         servicios="/#servicios"
         experiencia="/#experiencia"
-        portfolio="/Portfolio"
-        contacto="#contacto"
+        portfolio="/portfolio"
+        contacto="#contactopage"
       />
     </>
   );
