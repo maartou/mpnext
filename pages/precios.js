@@ -10,7 +10,7 @@ const Precios = () => {
   return (
     <>
       <Head>
-        <title>Precios | Martín Padrón</title>
+        <title>Precios de planes para desarrollo y diseño web: Martín Padrón</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com/precios" />
         <meta

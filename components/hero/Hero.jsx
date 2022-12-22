@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <Link href="/">
+          <Link href="/#contacto">
             <button className="bg-primary-200 p-3 w-[11rem] rounded-lg transition-all hover:scale-105 border border-white">
               Asesoría GRATIS
             </button>
@@ -76,8 +76,9 @@ const Hero = () => {
       <div className="w-full lg:grid lg:grid-rows-2">
         {/* Foto principal y H1  */}
         <div className="relative h-[35rem] lg:h-auto flex justify-center items-center px-4">
-          <h1 className="z-10 uppercase font-bold text-5xl leading-[3rem] lg:text-7xl ">
-            Desarrollo y diseño de páginas web
+          <h1 className="z-10 uppercase font-bold text-5xl lg:text-7xl w-[95%] leading-[1.2]  ">
+            Desarrollo y diseño web: creación de sitios atractivos y efectivos
+            con Martín Padrón
           </h1>
           <video
             muted

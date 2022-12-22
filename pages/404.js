@@ -11,24 +11,22 @@ const NotFound = () => {
         <title> 404 página no encontrada </title>
         <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
       </Head>
-      <Header
-        services="/#servicios"
-        portfolio="/Portfolio"
-        servi_nav="/#servicios"
-        contacto_nav="#contacto"
-      />
+      <Header />
 
       <div className={style.section}>
         <div className={style.content}>
-            <p>404</p>
-            <p>Página no encontrada, se pudo haber movido o eliminado.</p>
-            <Link href="/"> Volver al Inicio </Link>
+          <p>404</p>
+          <p>Página no encontrada, se pudo haber movido o eliminado.</p>
+          <Link href="/"> Volver al Inicio </Link>
         </div>
-
       </div>
 
-      <Footer servicios="/#servicios" experiencia="/#experiencia" portfolio="/Portfolio" contacto="/#contacto" />
-
+      <Footer
+        servicios="/#servicios"
+        experiencia="/#experiencia"
+        portfolio="/portfolio"
+        contacto="/#contacto"
+      />
     </>
   );
 };

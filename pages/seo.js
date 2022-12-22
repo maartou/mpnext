@@ -17,16 +17,16 @@ const SEO = () => {
   return (
     <>
       <Head>
-        <title>SEO Venezuela: consigue las primeras posiciones en Google</title>
+        <title>Mejora el posicionamiento de tu sitio web con nuestros servicios de SEO</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com/seo" />
         <meta
           name="description"
-          content="Consigue los primeros lugares en Google con las ultimas estrategias en SEO y SEM"
+          content="¿Quieres que tu sitio web aparezca en los primeros resultados de búsqueda? es posible aplicando las últimas estrategias en SEO para optimizar tu sitio web y mejorar su posicionamiento en los motores de búsqueda. Ofrezco un servicio completo de SEO que incluye investigación de palabras clave, optimización de contenido y enlaces entrantes. ¡Contáctanos para obtener más información!"
         />
         <meta
           name="keywords"
-          content="seo, sem, martin padron seo, seo pagina web, seo sitio web, martin padron sem, seo desarrollo web, seo programacion, seo web, seo venezuela, seo que es"
+          content="seo, posicionamiento en motores de busqueda, optimizacion de sitios web, investigacion de palabras clave, optimizacion de contenido, enlaces entrantes, mejora el trafico organico, analisis de competencia, optimizacion de la velocidad del sitio, tecnicas seo"
         />
         <meta
           property="og:image"

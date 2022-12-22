@@ -19,21 +19,18 @@ const Marketing = () => {
     <>
       <Head>
         <title>
-          Marketing digital y gestión de redes sociales en Venezuela
+          Expertos en marketing digital para impulsar el crecimiento de tu
+          empresa
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com/marketing" />
         <meta
           name="description"
-          content="Marketing digital para que empieces a ganar clientes a traves de internet con las mejores estrategias adaptadas a las necesidades de tu marca o empresa."
+          content="¿Quieres llevar tu negocio al siguiente nivel? Nuestro equipo de profesionales en marketing digital te ayudará a impulsar el crecimiento de tu empresa a través de estrategias de publicidad en línea, SEO, redes sociales y más. ¡Contáctanos para obtener una consultoría gratuita!"
         />
         <meta
           name="keywords"
-          content="marketing, marketing digital, gestion de redes sociales en venezuela, community manager, social media, martin padron, redes sociales estrategias"
-        />
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
+          content="marketing digital, publicidad en linea, seo, redes sociales, estrategias de marketing, analisis de datos, publicidad en google, marketing de contenidos, publicidad en redes sociales"
         />
       </Head>
 

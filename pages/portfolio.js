@@ -30,7 +30,7 @@ const Portfolio = () => {
   return (
     <>
       <Head>
-        <title>Portfolio y trabajos recientes | Martin Padron</title>
+        <title>Portfolio y trabajos recientes: Martin Padron</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com/portfolio" />
         <meta

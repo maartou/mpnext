@@ -26,25 +26,20 @@ const DesarrolloWeb = () => {
     <>
       <Head>
         <title>
-          Diseño web: ¿qué es una página web? y razones del porqué deberías
-          tener una
+         Servicios de desarrollo y diseño web personalizados
         </title>
         <meta
           name="description"
-          content="Desarrollo de sitios web a tu medida y diseñadas en cualquier estilo, optimizadas para SEO, tiendas en linea, catalogos, portfolios, galerías y mucho más."
+          content="Ofrezco servicios de desarrollo y diseño web personalizados para ayudar a mis clientes a crear una presencia en línea única y atractiva. Aplicando las últimas técnologias en desarrollo y diseño web para entender tus necesidades y crear una solución personalizada que se ajuste a tu presupuesto y a tus objetivos de negocio. ¡Póngase en contacto hoy mismo para obtener más información!"
         />
         <meta
-          name="keywords"
-          content="martin padron, martin eduardo, diseño web curso, que es diseño grafico, diseño web venezuela, que es diseño web, diseño web que es, diseño de paginas web en venezuela, desarrollo web que es, desarrollo web venezuela, desarrollo web, diseño web"
+         name="keywords"
+         content="martin padron, diseño web, desarollo web, diseño de sitios web, diseño de páginas web, desarrollo de páginas web, diseño y desarrollo web, diseño web profesional, desarrollo web profesional, servicios de diseño web"
         />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link
           rel="canonical"
           href="https://www.martineduardo.com/desarrollo-web"
-        />
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
         />
       </Head>
 
