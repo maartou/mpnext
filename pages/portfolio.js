@@ -62,56 +62,11 @@ const Portfolio = () => {
           </p>
         </div>
 
-        {/* Trabajos hechos con Oceanit  */}
-        <section className="w-11/12 mx-auto mt-[4rem]">
-          <div className="flex flex-col gap-3 2xl:gap-5">
-            <h2 className="text-3xl lg:text-4xl font-light 2xl:text-6xl">
-              Proyectos hechos con{" "}
-              <a
-                href="https://www.instagram.com/oceanit.io/"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary-100"
-              >
-                Oceanit.IO
-              </a>
-            </h2>
-
-            {/* Grid de los items  */}
-            <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              <PortfolioItem
-                img={enviosurbana}
-                alt="envios urbana"
-                titulo="Envios Urbana"
-                enlace="https://www.enviosurbana.com/"
-              />
-              <PortfolioItem
-                img={urbanapay}
-                alt="Urbana Pay"
-                titulo="Urbana Pay"
-                enlace="https://www.urbanapay.com/"
-              />
-              <PortfolioItem
-                img={entrada}
-                alt="entrada master"
-                titulo="Entrada master"
-                enlace="https://www.entradamaster.com/"
-              />
-              <PortfolioItem
-                img={mqm}
-                alt="me quiero mudar"
-                titulo="Me quiero mudar"
-                enlace="https://www.mequieromudar.com/"
-              />
-            </div>
-          </div>
-        </section>
-
         {/* Trabajos hechos por mi  */}
         <section className="w-11/12 mx-auto mt-[5rem] lg:mt-[7rem]">
           <div className="flex flex-col gap-3 2xl:gap-5">
             <h2 className="text-3xl lg:text-4xl font-light 2xl:text-6xl">
-              Webs hechas por mi
+              Desarrollo y diseño web
             </h2>
 
             {/* Grid de los items  */}
@@ -145,6 +100,30 @@ const Portfolio = () => {
                 alt="estructura modular"
                 titulo="Estructura modular"
                 enlace="https://esmodularweb.com/"
+              />
+                  <PortfolioItem
+                img={enviosurbana}
+                alt="envios urbana"
+                titulo="Envios Urbana"
+                enlace="https://www.enviosurbana.com/"
+              />
+              <PortfolioItem
+                img={urbanapay}
+                alt="Urbana Pay"
+                titulo="Urbana Pay"
+                enlace="https://www.urbanapay.com/"
+              />
+              <PortfolioItem
+                img={entrada}
+                alt="entrada master"
+                titulo="Entrada master"
+                enlace="https://www.entradamaster.com/"
+              />
+              <PortfolioItem
+                img={mqm}
+                alt="me quiero mudar"
+                titulo="Me quiero mudar"
+                enlace="https://www.mequieromudar.com/"
               />
             </div>
           </div>
