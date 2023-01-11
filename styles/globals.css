@@ -17,18 +17,24 @@ body {
 }
 
 .titulos {
-  @apply text-center mb-5 tracking-[.5em] uppercase font-light text-xl
+  @apply text-center mb-5 tracking-[.5em] uppercase font-light text-xl;
 }
 
 .container-txt {
-  @apply w-11/12 mx-auto flex flex-col gap-2 lg:w-[75%] 2xl:w-[70%]
+  @apply w-11/12 mx-auto flex flex-col gap-2 lg:w-[75%] 2xl:w-[70%];
 }
 
 .title-h2 {
-  @apply font-bold text-3xl md:text-4xl 2xl:text-5xl
+  @apply font-bold text-3xl md:text-4xl 2xl:text-5xl;
 }
 
 .txt {
-  @apply text-lg 2xl:text-xl
+  @apply text-lg 2xl:text-xl;
 }
 
+.fondi {
+  background-color: #000000;
+  opacity: 1;
+  background-image: radial-gradient(#3d3d3d 1.3px, #000000 1.3px);
+  background-size: 26px 26px;
+}

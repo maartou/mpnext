@@ -75,20 +75,21 @@ const Hero = () => {
 
       <div className="w-full lg:grid lg:grid-rows-2">
         {/* Foto principal y H1  */}
-        <div className="relative h-[35rem] lg:h-auto flex justify-center items-center px-4">
-          <h1 className="z-10 uppercase font-bold text-5xl lg:text-6xl 2xl:text-7xl w-[95%] leading-[1.2]  ">
-            Desarrollo y diseño web: creación de sitios atractivos y efectivos
-            con Martín Padrón
-          </h1>
-          <video
-            muted
-            loop
-            autoPlay
-            playsInline
-            className="absolute w-full h-full object-cover object-center"
-          >
-            <source src="/smoke.mp4" type="video/mp4" />
-          </video>
+        <div className="h-[35rem] flex justify-center items-center px-5 fondi lg:h-auto lg:px-0">
+
+          <div className="flex flex-col gap-3 md:max-w-xl lg:max-w-[90%]">
+            <h1 className="font-bold text-5xl leading-[3.3rem] md:text-6xl 2xl:text-7xl">
+              Lleva tu negocio al siguiente nivel con tu propio y potente sitio
+              web &#128293;
+            </h1>
+            <h2 className="text-neutral-400 text-lg md:text-xl">
+              Soy <strong className="text-white">Martín Padrón</strong>, desarrollador frontend y
+              diseñador de interfaces. Estoy aquí para ayudarte crear el sitio
+              web ideal que tu negocio, empresa o emprendimiento necesitan,
+              ¿listo para comenzar?
+            </h2>
+          </div>
+
         </div>
 
         {/* Portfolio y botones  */}
