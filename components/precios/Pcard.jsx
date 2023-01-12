@@ -23,9 +23,14 @@ const Pcard = (props) => {
         </div>
 
         {/* Boton  */}
-        <button className="bg-primary-100 p-3 rounded-xl">
-          <a href="#">{props.plan}</a>
-        </button>
+          <a
+            href="https://wa.me/+584144245029"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-primary-100 p-3 rounded-xl text-center"
+          >
+            {props.plan}
+          </a>
       </div>
     </article>
   );
