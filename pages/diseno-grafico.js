@@ -39,6 +39,7 @@ const Diseno_grafico = () => {
           name="keywords"
           content="diseño grafico, creacion de logos, identidad de marca, diseño de marca, diseño de logotipos, diseño de empresas, diseño de negocios, diseño de identidad de marca, diseño de imagen corporativa"
         />
+         <meta property="og:image" content="https://drive.google.com/file/d/1wwFPHoldxrsrr-ViacLv-gIR10Q-pmA6/view?usp=sharing" />
       </Head>
 
       <HeaderPage />

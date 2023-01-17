@@ -52,6 +52,7 @@ export default function Home() {
         />
 
         <meta property="og:site_name" content="Martin Padron" />
+        <meta property="og:image" content="https://drive.google.com/file/d/1wwFPHoldxrsrr-ViacLv-gIR10Q-pmA6/view?usp=sharing" />
       </Head>
 
       <div className="sticky left-0 top-0 z-[20] md:hidden">

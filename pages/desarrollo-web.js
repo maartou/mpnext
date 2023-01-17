@@ -41,6 +41,7 @@ const DesarrolloWeb = () => {
           rel="canonical"
           href="https://www.martineduardo.com/desarrollo-web"
         />
+         <meta property="og:image" content="https://drive.google.com/file/d/1wwFPHoldxrsrr-ViacLv-gIR10Q-pmA6/view?usp=sharing" />
       </Head>
 
       <HeaderPage />

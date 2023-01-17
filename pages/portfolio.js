@@ -41,10 +41,7 @@ const Portfolio = () => {
           name="keywords"
           content="martin padron, martin padron portfolio, martin eduardo, martin eduardo portfolio, portfolio"
         />
-        <meta
-          property="og:image"
-          content="https://www.martineduardo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fog_image.d303d898.jpg&w=3840&q=75"
-        />
+         <meta property="og:image" content="https://drive.google.com/file/d/1wwFPHoldxrsrr-ViacLv-gIR10Q-pmA6/view?usp=sharing" />
       </Head>
 
       <Header />

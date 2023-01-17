@@ -32,6 +32,7 @@ const Marketing = () => {
           name="keywords"
           content="marketing digital, publicidad en linea, seo, redes sociales, estrategias de marketing, analisis de datos, publicidad en google, marketing de contenidos, publicidad en redes sociales"
         />
+         <meta property="og:image" content="https://drive.google.com/file/d/1wwFPHoldxrsrr-ViacLv-gIR10Q-pmA6/view?usp=sharing" />
       </Head>
 
       <HeaderPage />
