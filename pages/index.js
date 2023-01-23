@@ -53,7 +53,7 @@ export default function Home() {
 
         <meta property="og:site_name" content="Martin Padron" />
 
-        <meta property="og:image" content="https://mega.nz/file/btN0EBZT#go5yHi5to-WXhg4nYECx54TpVq0EM6bjdcIyZiIUlnA" />
+        <meta property="og:image" content="https://ibb.co/wcLnYXq" />
       </Head>
 
       <div className="sticky left-0 top-0 z-[20] md:hidden">
