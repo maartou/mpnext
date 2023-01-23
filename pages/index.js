@@ -53,7 +53,7 @@ export default function Home() {
 
         <meta property="og:site_name" content="Martin Padron" />
 
-        <meta property="og:image" content="https://ibb.co/wcLnYXq" />
+        <meta property="og:image" content="https://i.imgur.com/IlCHu2x.jpeg" />
       </Head>
 
       <div className="sticky left-0 top-0 z-[20] md:hidden">
