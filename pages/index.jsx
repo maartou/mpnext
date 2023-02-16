@@ -27,7 +27,7 @@ export default function Home() {
 
       <Head>
         <title>
-          Desarrollo y diseño web: lleva tu negocio al siguiente nivel - Martín Padrón
+          Martín Padrón: Desarrollo y Diseño web para llevar tu negocio al siguiente nivel
         </title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <link rel="canonical" href="https://www.martineduardo.com" />
